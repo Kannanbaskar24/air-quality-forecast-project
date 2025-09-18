@@ -1,5 +1,5 @@
 # ===============================================================
-# app.py - AirAware Dashboard (with Admin Retrain Button)
+# app.py - AirAware Dashboard (with Admin Retrain Button + Full Data)
 # ===============================================================
 
 import streamlit as st
@@ -102,11 +102,10 @@ def load_and_process_data(historical_path, forecast_path):
     for p in pollutants:
         hist_df[f"{p}_AQI_Level"] = aqi_numeric_hist[p].fillna(0)
 
-    if not fc_df.empty:
-        combined = pd.concat([hist_df, fc_df], axis=0)
-        combined = combined[~combined.index.duplicated(keep="first")]
-    else:
-        combined = hist_df
+    # Merge historical + forecast
+    combined = pd.concat([hist_df, fc_df], axis=0)
+    combined = combined[~combined.index.duplicated(keep="first")]
+    combined = combined.sort_index()
 
     return hist_df, fc_df, combined
 
@@ -127,7 +126,7 @@ if is_admin:
         new_df = pd.read_csv(uploaded_file, index_col=0, parse_dates=True)
         new_df.to_csv(historical_csv, index=True)
         st.sidebar.success(f"Uploaded {len(new_df)} rows successfully.")
-        st.rerun()   # ✅ updated
+        st.rerun()
 
     # Retrain button
     st.sidebar.subheader("Model Operations")
@@ -139,7 +138,7 @@ if is_admin:
                 st.info(f"Forecast saved: {result['forecast_path']}")
                 st.info(f"Alerts saved: {result['alerts_path']}")
                 st.info(f"Metrics saved: {result['metrics_path']}")
-                st.rerun()   # ✅ updated
+                st.rerun()
             except Exception as e:
                 st.error("Retraining failed — see logs.")
                 st.text(traceback.format_exc())
@@ -150,10 +149,13 @@ historical_df, forecast_df, combined_df = load_and_process_data(historical_csv, 
 # ===================== Sidebar Filters =====================
 st.sidebar.header("Filters")
 selected_pollutant = st.sidebar.selectbox("Select Pollutant", pollutants)
+
+# Always default to FULL RANGE
 min_date = combined_df.index.min().date()
 max_date = combined_df.index.max().date()
 selected_start = st.sidebar.date_input("Start Date", min_value=min_date, max_value=max_date, value=min_date)
 selected_end = st.sidebar.date_input("End Date", min_value=min_date, max_value=max_date, value=max_date)
+
 if selected_start > selected_end:
     st.sidebar.error("Error: Start date must be before End date.")
 
@@ -168,6 +170,7 @@ if not filtered_df.empty:
     st.markdown(f"**Current Overall AQI:** {latest['Overall_AQI_Category']}")
     st.markdown(f"**High-Risk Days in Range:** {high_risk_count}")
     st.markdown(f"**Most Critical Pollutant Today:** {critical_pollutant}")
+
 
 # ===================== Tabs =====================
 tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs([

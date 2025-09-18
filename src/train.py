@@ -76,14 +76,21 @@ def retrain_all_models(historical_csv_path=None, forecast_days=7):
     if not forecast_dict:
         raise RuntimeError("No forecasts generated (check input CSV columns).")
 
+    # Forecast only
     forecast_df = pd.DataFrame(forecast_dict)
     forecast_df.index.name = "Date"
-
-    # Compute AQI and save
     forecast_with_aqi = compute_overall_aqi_from_df(forecast_df)
 
+    # Historical with AQI
+    historical_with_aqi = compute_overall_aqi_from_df(df)
+
+    # Combine History + Forecast
+    combined = pd.concat([historical_with_aqi, forecast_with_aqi])
+    combined = combined[~combined.index.duplicated(keep="last")]  # remove duplicates
+
+    # Save combined dataset
     forecast_path = DATA_DIR / "forecast_7days_full.csv"
-    forecast_with_aqi.to_csv(forecast_path)
+    combined.to_csv(forecast_path)
 
     # ===================== Alerts (Append History) =====================
     alerts_path = DATA_DIR / "high_risk_alerts.csv"
@@ -98,7 +105,6 @@ def retrain_all_models(historical_csv_path=None, forecast_days=7):
         else:
             high_risk.to_csv(alerts_path)
     else:
-        # if no alerts now, keep old file untouched to preserve history
         if not alerts_path.exists():
             forecast_with_aqi.head(0).to_csv(alerts_path)
 
