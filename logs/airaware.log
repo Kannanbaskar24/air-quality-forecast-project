@@ -1,0 +1,652 @@
+2025-09-20 11:11:45 | INFO | Loaded historical data: C:\Users\parka\OneDrive\Attachments\Documents\air-quality-forecast\dashboard\..\data\processed\air_quality_cleaned.csv (3666 rows)
+2025-09-20 11:11:45 | INFO | BEGIN (implicit)
+2025-09-20 11:11:45 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-09-20 11:11:45 | INFO | [cached since 8787s ago] {}
+2025-09-20 11:11:45 | INFO | ROLLBACK
+2025-09-20 11:11:45 | INFO | Fetched 7 forecast rows from DB
+2025-09-20 11:11:45 | INFO | BEGIN (implicit)
+2025-09-20 11:11:45 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-09-20 11:11:45 | INFO | [cached since 8787s ago] {}
+2025-09-20 11:11:46 | INFO | ROLLBACK
+2025-09-20 11:11:46 | INFO | Fetched 2926 alerts from DB
+2025-09-20 11:11:46 | INFO | BEGIN (implicit)
+2025-09-20 11:11:46 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-09-20 11:11:46 | INFO | [cached since 8787s ago] {}
+2025-09-20 11:11:46 | INFO | ROLLBACK
+2025-09-20 11:11:46 | INFO | Fetched 2926 alerts from DB
+2025-09-20 11:11:59 | INFO | BEGIN (implicit)
+2025-09-20 11:11:59 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-09-20 11:11:59 | INFO | [cached since 8801s ago] {}
+2025-09-20 11:12:00 | INFO | ROLLBACK
+2025-09-20 11:12:00 | INFO | Fetched 7 forecast rows from DB
+2025-09-20 11:12:00 | INFO | BEGIN (implicit)
+2025-09-20 11:12:00 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-09-20 11:12:00 | INFO | [cached since 8801s ago] {}
+2025-09-20 11:12:04 | INFO | ROLLBACK
+2025-09-20 11:12:04 | INFO | Fetched 2926 alerts from DB
+2025-09-20 11:12:04 | INFO | BEGIN (implicit)
+2025-09-20 11:12:04 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-09-20 11:12:04 | INFO | [cached since 8806s ago] {}
+2025-09-20 11:12:05 | INFO | ROLLBACK
+2025-09-20 11:12:05 | INFO | Fetched 2926 alerts from DB
+2025-09-20 11:12:14 | INFO | BEGIN (implicit)
+2025-09-20 11:12:14 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-09-20 11:12:14 | INFO | [cached since 8816s ago] {}
+2025-09-20 11:12:15 | INFO | ROLLBACK
+2025-09-20 11:12:15 | INFO | Fetched 7 forecast rows from DB
+2025-09-20 11:12:15 | INFO | BEGIN (implicit)
+2025-09-20 11:12:15 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-09-20 11:12:15 | INFO | [cached since 8816s ago] {}
+2025-09-20 11:12:18 | INFO | ROLLBACK
+2025-09-20 11:12:18 | INFO | Fetched 2926 alerts from DB
+2025-09-20 11:12:18 | INFO | BEGIN (implicit)
+2025-09-20 11:12:18 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-09-20 11:12:18 | INFO | [cached since 8820s ago] {}
+2025-09-20 11:12:19 | INFO | ROLLBACK
+2025-09-20 11:12:19 | INFO | Fetched 2926 alerts from DB
+2025-09-20 11:19:50 | INFO | BEGIN (implicit)
+2025-09-20 11:19:50 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-09-20 11:19:50 | INFO | [cached since 9271s ago] {}
+2025-09-20 11:19:50 | INFO | ROLLBACK
+2025-09-20 11:19:50 | INFO | Fetched 7 forecast rows from DB
+2025-09-20 11:19:50 | INFO | BEGIN (implicit)
+2025-09-20 11:19:50 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-09-20 11:19:50 | INFO | [cached since 9271s ago] {}
+2025-09-20 11:19:50 | INFO | ROLLBACK
+2025-09-20 11:19:50 | INFO | Fetched 2926 alerts from DB
+2025-09-20 11:19:50 | INFO | BEGIN (implicit)
+2025-09-20 11:19:50 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-09-20 11:19:50 | INFO | [cached since 9271s ago] {}
+2025-09-20 11:19:50 | INFO | ROLLBACK
+2025-09-20 11:19:50 | INFO | Fetched 2926 alerts from DB
+2025-09-20 11:19:53 | INFO | Displayed daily trend for PM2.5
+2025-09-20 11:19:54 | INFO | Displayed weekly trend for PM2.5
+2025-09-20 11:19:55 | INFO | Displayed monthly trend for PM2.5
+2025-09-20 11:19:56 | INFO | Displayed overall AQI daily trend
+2025-09-20 11:21:46 | INFO | BEGIN (implicit)
+2025-09-20 11:21:46 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-09-20 11:21:46 | INFO | [cached since 9387s ago] {}
+2025-09-20 11:21:46 | INFO | ROLLBACK
+2025-09-20 11:21:46 | INFO | Fetched 7 forecast rows from DB
+2025-09-20 11:21:46 | INFO | BEGIN (implicit)
+2025-09-20 11:21:46 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-09-20 11:21:46 | INFO | [cached since 9387s ago] {}
+2025-09-20 11:21:46 | INFO | ROLLBACK
+2025-09-20 11:21:46 | INFO | Fetched 2926 alerts from DB
+2025-09-20 11:21:46 | INFO | BEGIN (implicit)
+2025-09-20 11:21:46 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-09-20 11:21:46 | INFO | [cached since 9387s ago] {}
+2025-09-20 11:21:46 | INFO | ROLLBACK
+2025-09-20 11:21:46 | INFO | Fetched 2926 alerts from DB
+2025-09-20 11:21:51 | INFO | Displayed daily trend for PM2.5
+2025-09-20 11:21:52 | INFO | Displayed weekly trend for PM2.5
+2025-09-20 11:21:53 | INFO | Displayed monthly trend for PM2.5
+2025-09-20 11:21:54 | INFO | Displayed overall AQI daily trend
+2025-09-20 11:22:22 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-09-20 11:22:23 | INFO | Displayed daily AQI trends per pollutant
+2025-09-20 11:22:24 | INFO | Displayed weekly AQI trends per pollutant
+2025-09-20 11:22:24 | INFO | Displayed monthly AQI trends per pollutant
+2025-09-20 11:29:08 | INFO | BEGIN (implicit)
+2025-09-20 11:29:08 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-09-20 11:29:08 | INFO | [cached since 9830s ago] {}
+2025-09-20 11:29:08 | INFO | ROLLBACK
+2025-09-20 11:29:08 | INFO | Fetched 7 forecast rows from DB
+2025-09-20 11:29:08 | INFO | BEGIN (implicit)
+2025-09-20 11:29:08 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-09-20 11:29:08 | INFO | [cached since 9830s ago] {}
+2025-09-20 11:29:09 | INFO | ROLLBACK
+2025-09-20 11:29:09 | INFO | Fetched 2926 alerts from DB
+2025-09-20 11:29:09 | INFO | BEGIN (implicit)
+2025-09-20 11:29:09 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-09-20 11:29:09 | INFO | [cached since 9830s ago] {}
+2025-09-20 11:29:09 | INFO | ROLLBACK
+2025-09-20 11:29:09 | INFO | Fetched 2926 alerts from DB
+2025-09-20 11:29:14 | INFO | Displayed daily trend for PM2.5
+2025-09-20 11:29:15 | INFO | BEGIN (implicit)
+2025-09-20 11:29:15 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-09-20 11:29:15 | INFO | [cached since 9837s ago] {}
+2025-09-20 11:29:15 | INFO | ROLLBACK
+2025-09-20 11:29:15 | INFO | Fetched 7 forecast rows from DB
+2025-09-20 11:29:15 | INFO | BEGIN (implicit)
+2025-09-20 11:29:15 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-09-20 11:29:15 | INFO | [cached since 9837s ago] {}
+2025-09-20 11:29:17 | INFO | ROLLBACK
+2025-09-20 11:29:17 | INFO | Fetched 2926 alerts from DB
+2025-09-20 11:29:17 | INFO | BEGIN (implicit)
+2025-09-20 11:29:17 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-09-20 11:29:17 | INFO | [cached since 9838s ago] {}
+2025-09-20 11:29:17 | INFO | ROLLBACK
+2025-09-20 11:29:17 | INFO | Fetched 2926 alerts from DB
+2025-09-20 11:29:22 | INFO | Displayed daily trend for PM2.5
+2025-09-20 11:29:23 | INFO | Displayed weekly trend for PM2.5
+2025-09-20 11:29:24 | INFO | Displayed monthly trend for PM2.5
+2025-09-20 11:29:25 | INFO | Displayed overall AQI daily trend
+2025-09-20 11:30:28 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-09-20 11:30:30 | INFO | Displayed daily AQI trends per pollutant
+2025-09-20 11:30:30 | INFO | Displayed weekly AQI trends per pollutant
+2025-09-20 11:30:31 | INFO | Displayed monthly AQI trends per pollutant
+2025-09-20 11:48:16 | ERROR | Error loading model for PM2.5: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 11:48:16 | ERROR | Error loading model for PM10: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 11:48:17 | ERROR | Error loading model for NO2: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 11:48:17 | ERROR | Error loading model for O3: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 11:48:17 | INFO | Loaded PKL model for CO
+2025-09-20 11:48:17 | INFO | Loaded PKL model for SO2
+2025-09-20 11:48:28 | ERROR | Error loading model for PM2.5: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 11:48:28 | ERROR | Error loading model for PM10: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 11:48:28 | ERROR | Error loading model for NO2: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 11:48:28 | ERROR | Error loading model for O3: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 11:48:28 | INFO | Loaded PKL model for CO
+2025-09-20 11:48:28 | INFO | Loaded PKL model for SO2
+2025-09-20 11:49:13 | INFO | Loaded historical data: C:\Users\parka\OneDrive\Attachments\Documents\air-quality-forecast\dashboard\..\data\processed\air_quality_cleaned.csv (3666 rows)
+2025-09-20 11:49:16 | ERROR | Error fetching forecasts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 11:49:16 | INFO | Fetched forecast from CSV fallback
+2025-09-20 11:49:16 | ERROR | Error loading model for PM2.5: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 11:49:16 | ERROR | Error loading model for PM10: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 11:49:16 | ERROR | Error loading model for NO2: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 11:49:16 | ERROR | Error loading model for O3: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 11:49:16 | INFO | Loaded PKL model for CO
+2025-09-20 11:49:16 | INFO | Loaded PKL model for SO2
+2025-09-20 11:49:18 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 11:49:18 | INFO | Fetched alerts from CSV fallback
+2025-09-20 11:49:20 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 11:49:20 | INFO | Fetched alerts from CSV fallback
+2025-09-20 11:49:23 | INFO | Displayed daily trend for PM2.5
+2025-09-20 11:49:23 | INFO | Displayed weekly trend for PM2.5
+2025-09-20 11:49:23 | INFO | Displayed monthly trend for PM2.5
+2025-09-20 11:49:24 | INFO | Displayed overall AQI daily trend
+2025-09-20 11:49:49 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-09-20 11:49:50 | INFO | Displayed daily AQI trends per pollutant
+2025-09-20 11:49:51 | INFO | Displayed weekly AQI trends per pollutant
+2025-09-20 11:49:51 | INFO | Displayed monthly AQI trends per pollutant
+2025-09-20 12:06:00 | ERROR | Error fetching forecasts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:06:00 | INFO | Fetched forecast from CSV fallback
+2025-09-20 12:06:03 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:06:03 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:06:05 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:06:05 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:06:11 | INFO | Displayed daily trend for PM2.5
+2025-09-20 12:06:12 | INFO | Displayed weekly trend for PM2.5
+2025-09-20 12:06:13 | INFO | Displayed monthly trend for PM2.5
+2025-09-20 12:06:14 | INFO | Displayed overall AQI daily trend
+2025-09-20 12:06:15 | ERROR | Error loading model for PM2.5: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:06:15 | ERROR | Error loading model for PM10: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:06:16 | ERROR | Error loading model for NO2: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:06:16 | ERROR | Error loading model for O3: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:06:16 | INFO | Loaded PKL model for CO
+2025-09-20 12:06:16 | INFO | Loaded PKL model for SO2
+2025-09-20 12:07:31 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-09-20 12:07:33 | INFO | Displayed daily AQI trends per pollutant
+2025-09-20 12:07:34 | INFO | Displayed weekly AQI trends per pollutant
+2025-09-20 12:07:36 | INFO | Displayed monthly AQI trends per pollutant
+2025-09-20 12:08:39 | ERROR | Error fetching forecasts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:08:39 | INFO | Fetched forecast from CSV fallback
+2025-09-20 12:08:41 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:08:41 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:08:43 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:08:43 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:08:49 | INFO | Displayed daily trend for PM2.5
+2025-09-20 12:08:50 | INFO | Displayed weekly trend for PM2.5
+2025-09-20 12:08:50 | ERROR | Error loading model for PM2.5: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:08:50 | ERROR | Error loading model for PM10: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:08:50 | ERROR | Error loading model for NO2: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:08:50 | ERROR | Error loading model for O3: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:08:50 | INFO | Loaded PKL model for CO
+2025-09-20 12:08:50 | INFO | Loaded PKL model for SO2
+2025-09-20 12:08:51 | INFO | Displayed monthly trend for PM2.5
+2025-09-20 12:08:52 | INFO | Displayed overall AQI daily trend
+2025-09-20 12:10:03 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-09-20 12:10:05 | INFO | Displayed daily AQI trends per pollutant
+2025-09-20 12:10:06 | INFO | Displayed weekly AQI trends per pollutant
+2025-09-20 12:10:07 | INFO | Displayed monthly AQI trends per pollutant
+2025-09-20 12:11:20 | ERROR | Error loading model for PM2.5: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:11:20 | ERROR | Error loading model for PM10: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:11:20 | ERROR | Error loading model for NO2: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:11:20 | ERROR | Error loading model for O3: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:11:20 | INFO | Loaded PKL model for CO
+2025-09-20 12:11:20 | INFO | Loaded PKL model for SO2
+2025-09-20 12:13:07 | INFO | Loaded historical data: C:\Users\parka\OneDrive\Attachments\Documents\air-quality-forecast\dashboard\..\data\processed\air_quality_cleaned.csv (3666 rows)
+2025-09-20 12:13:10 | ERROR | Error fetching forecasts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:13:10 | INFO | Fetched forecast from CSV fallback
+2025-09-20 12:13:12 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:13:12 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:13:14 | ERROR | Error loading model for PM2.5: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:13:14 | ERROR | Error loading model for PM10: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:13:14 | ERROR | Error loading model for NO2: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:13:14 | ERROR | Error loading model for O3: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:13:14 | INFO | Loaded PKL model for CO
+2025-09-20 12:13:14 | INFO | Loaded PKL model for SO2
+2025-09-20 12:13:14 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:13:14 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:13:22 | ERROR | Error loading model for PM2.5: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:13:22 | ERROR | Error loading model for PM10: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:13:22 | ERROR | Error loading model for NO2: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:13:22 | ERROR | Error loading model for O3: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:13:22 | INFO | Loaded PKL model for CO
+2025-09-20 12:13:22 | INFO | Loaded PKL model for SO2
+2025-09-20 12:13:47 | ERROR | Error loading model for PM2.5: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:13:47 | ERROR | Error loading model for PM10: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:13:47 | ERROR | Error loading model for NO2: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:13:47 | ERROR | Error loading model for O3: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:13:47 | INFO | Loaded PKL model for CO
+2025-09-20 12:13:47 | INFO | Loaded PKL model for SO2
+2025-09-20 12:15:16 | ERROR | Error fetching forecasts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:15:16 | INFO | Fetched forecast from CSV fallback
+2025-09-20 12:15:19 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:15:19 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:15:21 | ERROR | Error loading model for PM2.5: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:15:21 | ERROR | Error loading model for PM10: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:15:21 | ERROR | Error loading model for NO2: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:15:21 | ERROR | Error loading model for O3: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:15:21 | INFO | Loaded PKL model for CO
+2025-09-20 12:15:21 | INFO | Loaded PKL model for SO2
+2025-09-20 12:15:21 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:15:21 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:15:27 | INFO | Displayed daily trend for PM2.5
+2025-09-20 12:15:28 | INFO | Displayed weekly trend for PM2.5
+2025-09-20 12:15:29 | INFO | Displayed monthly trend for PM2.5
+2025-09-20 12:15:30 | INFO | Displayed overall AQI daily trend
+2025-09-20 12:16:47 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-09-20 12:16:49 | INFO | Displayed daily AQI trends per pollutant
+2025-09-20 12:16:50 | INFO | Displayed weekly AQI trends per pollutant
+2025-09-20 12:16:51 | INFO | Displayed monthly AQI trends per pollutant
+2025-09-20 12:18:07 | ERROR | Error fetching forecasts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:18:07 | INFO | Fetched forecast from CSV fallback
+2025-09-20 12:18:09 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:18:09 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:18:11 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:18:11 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:18:18 | INFO | Displayed daily trend for PM2.5
+2025-09-20 12:18:20 | INFO | Displayed weekly trend for PM2.5
+2025-09-20 12:18:21 | INFO | Displayed monthly trend for PM2.5
+2025-09-20 12:18:22 | ERROR | Error loading model for PM2.5: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:18:22 | ERROR | Error loading model for PM10: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:18:22 | INFO | Displayed overall AQI daily trend
+2025-09-20 12:18:22 | ERROR | Error loading model for NO2: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:18:22 | ERROR | Error loading model for O3: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:18:22 | INFO | Loaded PKL model for CO
+2025-09-20 12:18:22 | INFO | Loaded PKL model for SO2
+2025-09-20 12:19:28 | ERROR | Error fetching forecasts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:19:28 | INFO | Fetched forecast from CSV fallback
+2025-09-20 12:19:30 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:19:30 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:19:33 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:19:33 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:19:40 | ERROR | Error loading model for PM2.5: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:19:40 | ERROR | Error loading model for PM10: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:19:41 | ERROR | Error loading model for NO2: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:19:41 | ERROR | Error loading model for O3: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:19:41 | INFO | Loaded PKL model for CO
+2025-09-20 12:19:41 | INFO | Loaded PKL model for SO2
+2025-09-20 12:19:46 | INFO | Displayed daily trend for PM2.5
+2025-09-20 12:19:47 | INFO | Displayed weekly trend for PM2.5
+2025-09-20 12:19:48 | INFO | Displayed monthly trend for PM2.5
+2025-09-20 12:19:49 | INFO | Displayed overall AQI daily trend
+2025-09-20 12:20:12 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-09-20 12:20:13 | INFO | Displayed daily AQI trends per pollutant
+2025-09-20 12:20:14 | INFO | Displayed weekly AQI trends per pollutant
+2025-09-20 12:20:14 | INFO | Displayed monthly AQI trends per pollutant
+2025-09-20 12:21:46 | ERROR | Error fetching forecasts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:21:46 | INFO | Fetched forecast from CSV fallback
+2025-09-20 12:21:48 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:21:48 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:21:51 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:21:51 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:21:57 | ERROR | Error loading model for PM2.5: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:21:57 | ERROR | Error loading model for PM10: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:21:57 | ERROR | Error loading model for NO2: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:21:57 | ERROR | Error loading model for O3: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:21:57 | INFO | Loaded PKL model for CO
+2025-09-20 12:21:57 | INFO | Loaded PKL model for SO2
+2025-09-20 12:22:15 | ERROR | Error fetching forecasts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:22:15 | INFO | Fetched forecast from CSV fallback
+2025-09-20 12:22:17 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:22:17 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:22:18 | ERROR | Error loading model for PM2.5: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:22:18 | ERROR | Error loading model for PM10: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:22:18 | ERROR | Error loading model for NO2: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:22:18 | ERROR | Error loading model for O3: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:22:18 | INFO | Loaded PKL model for CO
+2025-09-20 12:22:18 | INFO | Loaded PKL model for SO2
+2025-09-20 12:22:19 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:22:19 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:22:23 | INFO | Displayed daily trend for PM2.5
+2025-09-20 12:22:24 | INFO | Displayed weekly trend for PM2.5
+2025-09-20 12:22:24 | INFO | Displayed monthly trend for PM2.5
+2025-09-20 12:22:25 | INFO | Displayed overall AQI daily trend
+2025-09-20 12:22:57 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-09-20 12:23:00 | INFO | Displayed daily AQI trends per pollutant
+2025-09-20 12:23:02 | INFO | Displayed weekly AQI trends per pollutant
+2025-09-20 12:23:03 | INFO | Displayed monthly AQI trends per pollutant
+2025-09-20 12:23:12 | ERROR | Error fetching forecasts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:23:12 | INFO | Fetched forecast from CSV fallback
+2025-09-20 12:23:14 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:23:14 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:23:17 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:23:17 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:23:20 | ERROR | Error loading model for PM2.5: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:23:20 | ERROR | Error loading model for PM10: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:23:21 | ERROR | Error loading model for NO2: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:23:21 | ERROR | Error loading model for O3: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:23:21 | INFO | Loaded PKL model for CO
+2025-09-20 12:23:21 | INFO | Loaded PKL model for SO2
+2025-09-20 12:23:23 | INFO | Displayed daily trend for PM2.5
+2025-09-20 12:23:24 | INFO | Displayed weekly trend for PM2.5
+2025-09-20 12:23:24 | INFO | Displayed monthly trend for PM2.5
+2025-09-20 12:23:25 | INFO | Displayed overall AQI daily trend
+2025-09-20 12:23:47 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-09-20 12:23:48 | INFO | Displayed daily AQI trends per pollutant
+2025-09-20 12:23:48 | INFO | Displayed weekly AQI trends per pollutant
+2025-09-20 12:23:48 | INFO | Displayed monthly AQI trends per pollutant
+2025-09-20 12:25:58 | ERROR | Error fetching forecasts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:25:58 | INFO | Fetched forecast from CSV fallback
+2025-09-20 12:26:01 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:26:01 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:26:03 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:26:03 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:26:04 | ERROR | Error loading model for PM2.5: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:26:04 | ERROR | Error loading model for PM10: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:26:04 | ERROR | Error loading model for NO2: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:26:04 | ERROR | Error loading model for O3: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:26:04 | INFO | Loaded PKL model for CO
+2025-09-20 12:26:04 | INFO | Loaded PKL model for SO2
+2025-09-20 12:26:38 | ERROR | Error loading model for PM2.5: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:26:38 | ERROR | Error loading model for PM10: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:26:38 | ERROR | Error loading model for NO2: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:26:38 | ERROR | Error loading model for O3: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:26:38 | INFO | Loaded PKL model for CO
+2025-09-20 12:26:38 | INFO | Loaded PKL model for SO2
+2025-09-20 12:27:33 | ERROR | Error fetching forecasts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:27:33 | INFO | Fetched forecast from CSV fallback
+2025-09-20 12:27:34 | ERROR | Error loading model for PM2.5: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:27:34 | ERROR | Error loading model for PM10: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:27:34 | ERROR | Error loading model for NO2: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:27:34 | ERROR | Error loading model for O3: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:27:34 | INFO | Loaded PKL model for CO
+2025-09-20 12:27:34 | INFO | Loaded PKL model for SO2
+2025-09-20 12:27:35 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:27:35 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:27:37 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:27:37 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:27:43 | INFO | Displayed daily trend for PM2.5
+2025-09-20 12:27:44 | INFO | Displayed weekly trend for PM2.5
+2025-09-20 12:27:45 | INFO | Displayed monthly trend for PM2.5
+2025-09-20 12:27:46 | INFO | Displayed overall AQI daily trend
+2025-09-20 12:28:11 | ERROR | Error fetching forecasts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:28:12 | INFO | Fetched forecast from CSV fallback
+2025-09-20 12:28:14 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:28:14 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:28:16 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:28:16 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:28:26 | INFO | Displayed daily trend for PM10
+2025-09-20 12:28:27 | INFO | Displayed weekly trend for PM10
+2025-09-20 12:28:28 | INFO | Displayed monthly trend for PM10
+2025-09-20 12:28:28 | INFO | Displayed overall AQI daily trend
+2025-09-20 12:29:08 | ERROR | Error fetching forecasts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:29:08 | INFO | Fetched forecast from CSV fallback
+2025-09-20 12:29:10 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:29:10 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:29:12 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:29:12 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:29:14 | INFO | Displayed daily trend for PM2.5
+2025-09-20 12:29:15 | INFO | Displayed weekly trend for PM2.5
+2025-09-20 12:29:15 | INFO | Displayed monthly trend for PM2.5
+2025-09-20 12:29:15 | INFO | Displayed overall AQI daily trend
+2025-09-20 12:29:16 | ERROR | Error loading model for PM2.5: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:29:16 | ERROR | Error loading model for PM10: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:29:16 | ERROR | Error loading model for NO2: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:29:16 | ERROR | Error loading model for O3: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:29:16 | INFO | Loaded PKL model for CO
+2025-09-20 12:29:16 | INFO | Loaded PKL model for SO2
+2025-09-20 12:29:38 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-09-20 12:29:39 | INFO | Displayed daily AQI trends per pollutant
+2025-09-20 12:29:40 | INFO | Displayed weekly AQI trends per pollutant
+2025-09-20 12:29:40 | INFO | Displayed monthly AQI trends per pollutant
+2025-09-20 12:30:34 | ERROR | Error loading model for PM2.5: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:30:34 | ERROR | Error loading model for PM10: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:30:35 | ERROR | Error loading model for NO2: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:30:35 | ERROR | Error loading model for O3: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:30:35 | INFO | Loaded PKL model for CO
+2025-09-20 12:30:35 | INFO | Loaded PKL model for SO2
+2025-09-20 12:30:51 | ERROR | Error loading model for PM2.5: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:30:51 | ERROR | Error loading model for PM10: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:30:51 | ERROR | Error loading model for NO2: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:30:51 | ERROR | Error loading model for O3: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:30:51 | INFO | Loaded PKL model for CO
+2025-09-20 12:30:51 | INFO | Loaded PKL model for SO2
+2025-09-20 12:31:09 | ERROR | Error fetching forecasts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:31:09 | INFO | Fetched forecast from CSV fallback
+2025-09-20 12:31:11 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:31:11 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:31:13 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:31:13 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:31:20 | ERROR | Error fetching forecasts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:31:20 | INFO | Fetched forecast from CSV fallback
+2025-09-20 12:31:23 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:31:23 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:31:25 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:31:25 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:31:30 | INFO | Displayed daily trend for O3
+2025-09-20 12:31:31 | INFO | Displayed weekly trend for O3
+2025-09-20 12:31:32 | INFO | Displayed monthly trend for O3
+2025-09-20 12:31:33 | INFO | Displayed overall AQI daily trend
+2025-09-20 12:31:58 | ERROR | Error fetching forecasts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:31:58 | INFO | Fetched forecast from CSV fallback
+2025-09-20 12:32:00 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:32:00 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:32:03 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:32:03 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:32:05 | ERROR | Error loading model for PM2.5: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:32:05 | ERROR | Error loading model for PM10: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:32:05 | ERROR | Error loading model for NO2: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:32:05 | ERROR | Error loading model for O3: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:32:05 | INFO | Loaded PKL model for CO
+2025-09-20 12:32:05 | INFO | Loaded PKL model for SO2
+2025-09-20 12:32:13 | INFO | Displayed daily trend for PM2.5
+2025-09-20 12:32:14 | INFO | Displayed weekly trend for PM2.5
+2025-09-20 12:32:16 | INFO | Displayed monthly trend for PM2.5
+2025-09-20 12:32:17 | INFO | Displayed overall AQI daily trend
+2025-09-20 12:32:48 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-09-20 12:32:49 | INFO | Displayed daily AQI trends per pollutant
+2025-09-20 12:32:49 | INFO | Displayed weekly AQI trends per pollutant
+2025-09-20 12:32:50 | INFO | Displayed monthly AQI trends per pollutant
+2025-09-20 12:34:39 | ERROR | Error fetching forecasts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:34:39 | INFO | Fetched forecast from CSV fallback
+2025-09-20 12:34:41 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:34:41 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:34:44 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:34:44 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:34:47 | ERROR | Error loading model for PM2.5: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:34:47 | ERROR | Error loading model for PM10: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:34:47 | ERROR | Error loading model for NO2: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:34:47 | ERROR | Error loading model for O3: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:34:47 | INFO | Loaded PKL model for CO
+2025-09-20 12:34:47 | INFO | Loaded PKL model for SO2
+2025-09-20 12:34:50 | INFO | Displayed daily trend for PM2.5
+2025-09-20 12:34:51 | INFO | Displayed weekly trend for PM2.5
+2025-09-20 12:34:52 | INFO | Displayed monthly trend for PM2.5
+2025-09-20 12:34:53 | INFO | Displayed overall AQI daily trend
+2025-09-20 12:35:11 | ERROR | Error loading model for PM2.5: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:35:11 | ERROR | Error loading model for PM10: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:35:11 | ERROR | Error loading model for NO2: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:35:11 | ERROR | Error loading model for O3: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:35:11 | INFO | Loaded PKL model for CO
+2025-09-20 12:35:11 | INFO | Loaded PKL model for SO2
+2025-09-20 12:35:23 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-09-20 12:35:24 | INFO | Displayed daily AQI trends per pollutant
+2025-09-20 12:35:24 | INFO | Displayed weekly AQI trends per pollutant
+2025-09-20 12:35:25 | INFO | Displayed monthly AQI trends per pollutant
+2025-09-20 12:36:56 | ERROR | Error loading model for PM2.5: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:36:56 | ERROR | Error loading model for PM10: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:36:56 | ERROR | Error loading model for NO2: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:36:56 | ERROR | Error loading model for O3: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:36:56 | INFO | Loaded PKL model for CO
+2025-09-20 12:36:56 | INFO | Loaded PKL model for SO2
+2025-09-20 12:37:13 | ERROR | Error loading model for PM2.5: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:37:13 | ERROR | Error loading model for PM10: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:37:13 | ERROR | Error loading model for NO2: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:37:13 | ERROR | Error loading model for O3: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:37:13 | INFO | Loaded PKL model for CO
+2025-09-20 12:37:13 | INFO | Loaded PKL model for SO2
+2025-09-20 12:38:03 | ERROR | Error fetching forecasts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:38:03 | INFO | Fetched forecast from CSV fallback
+2025-09-20 12:38:05 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:38:05 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:38:07 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:38:07 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:38:12 | ERROR | Error loading model for PM2.5: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:38:12 | ERROR | Error loading model for PM10: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:38:12 | ERROR | Error loading model for NO2: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:38:12 | ERROR | Error loading model for O3: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:38:12 | INFO | Loaded PKL model for CO
+2025-09-20 12:38:12 | INFO | Loaded PKL model for SO2
+2025-09-20 12:38:14 | INFO | Displayed daily trend for PM2.5
+2025-09-20 12:38:15 | INFO | Displayed weekly trend for PM2.5
+2025-09-20 12:38:16 | INFO | Displayed monthly trend for PM2.5
+2025-09-20 12:38:17 | INFO | Displayed overall AQI daily trend
+2025-09-20 12:39:22 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-09-20 12:39:24 | INFO | Displayed daily AQI trends per pollutant
+2025-09-20 12:39:26 | INFO | Displayed weekly AQI trends per pollutant
+2025-09-20 12:39:27 | INFO | Displayed monthly AQI trends per pollutant
+2025-09-20 12:40:43 | ERROR | Error loading model for PM2.5: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:40:43 | ERROR | Error loading model for PM10: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:40:43 | ERROR | Error loading model for NO2: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:40:43 | ERROR | Error loading model for O3: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:40:43 | INFO | Loaded PKL model for CO
+2025-09-20 12:40:43 | INFO | Loaded PKL model for SO2
+2025-09-20 12:40:59 | ERROR | Error fetching forecasts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:40:59 | INFO | Fetched forecast from CSV fallback
+2025-09-20 12:40:59 | ERROR | Error loading model for PM2.5: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:40:59 | ERROR | Error loading model for PM10: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:40:59 | ERROR | Error loading model for NO2: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:40:59 | ERROR | Error loading model for O3: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:40:59 | INFO | Loaded PKL model for CO
+2025-09-20 12:40:59 | INFO | Loaded PKL model for SO2
+2025-09-20 12:41:01 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:41:01 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:41:04 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:41:04 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:41:09 | INFO | Displayed daily trend for PM2.5
+2025-09-20 12:41:10 | INFO | Displayed weekly trend for PM2.5
+2025-09-20 12:41:11 | INFO | Displayed monthly trend for PM2.5
+2025-09-20 12:41:12 | INFO | Displayed overall AQI daily trend
+2025-09-20 12:41:17 | ERROR | Error fetching forecasts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:41:17 | INFO | Fetched forecast from CSV fallback
+2025-09-20 12:41:19 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:41:19 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:41:21 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:41:22 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:41:30 | INFO | Displayed daily trend for PM10
+2025-09-20 12:41:33 | INFO | Displayed weekly trend for PM10
+2025-09-20 12:41:35 | INFO | Displayed monthly trend for PM10
+2025-09-20 12:41:38 | INFO | Displayed overall AQI daily trend
+2025-09-20 12:43:43 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-09-20 12:43:45 | INFO | Displayed daily AQI trends per pollutant
+2025-09-20 12:43:47 | INFO | Displayed weekly AQI trends per pollutant
+2025-09-20 12:43:48 | INFO | Displayed monthly AQI trends per pollutant
+2025-09-20 12:46:10 | ERROR | Error fetching forecasts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:46:10 | INFO | Fetched forecast from CSV fallback
+2025-09-20 12:46:13 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:46:13 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:46:15 | ERROR | Error fetching alerts from DB: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host 'db' (11001)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-09-20 12:46:15 | INFO | Fetched alerts from CSV fallback
+2025-09-20 12:46:16 | ERROR | Error loading model for PM2.5: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:46:16 | ERROR | Error loading model for PM10: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:46:16 | ERROR | Error loading model for NO2: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:46:16 | ERROR | Error loading model for O3: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2025-09-20 12:46:16 | INFO | Loaded PKL model for CO
+2025-09-20 12:46:16 | INFO | Loaded PKL model for SO2
+2025-09-20 12:46:17 | INFO | Displayed daily trend for PM2.5
+2025-09-20 12:46:17 | INFO | Displayed weekly trend for PM2.5
+2025-09-20 12:46:18 | INFO | Displayed monthly trend for PM2.5
+2025-09-20 12:46:18 | INFO | Displayed overall AQI daily trend
+2025-09-20 12:46:40 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-09-20 12:46:41 | INFO | Displayed daily AQI trends per pollutant
+2025-09-20 12:46:41 | INFO | Displayed weekly AQI trends per pollutant
+2025-09-20 12:46:42 | INFO | Displayed monthly AQI trends per pollutant

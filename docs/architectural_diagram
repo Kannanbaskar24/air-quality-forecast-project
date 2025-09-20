@@ -1,0 +1,65 @@
+┌─────────────────────────────┐
+│     Data Sources            │
+│ ────────────────            │
+│ • CPCB / OpenAQ / Kaggle    │
+│ • Weather Data (optional)   │
+└─────────────┬──────────────┘
+              │
+              ▼
+┌─────────────────────────────┐
+│  Data Preprocessing Module  │
+│ ────────────────            │
+│ • Handle missing timestamps │
+│ • Resample to hourly/daily  │
+│ • Normalize & handle outliers│
+│ • Feature engineering       │
+└─────────────┬──────────────┘
+              │
+              ▼
+┌─────────────────────────────┐
+│      Database (SQLAlchemy)  │
+│ ────────────────            │
+│ • measurements (raw/cleaned)│
+│ • predictions (forecast)    │
+│ • alerts (high-risk AQI)    │
+│ • models (metadata & metrics)│
+└─────────────┬──────────────┘
+              │
+              ▼
+┌─────────────────────────────┐
+│      Forecasting Module     │
+│ ────────────────            │
+│ • Model training per pollutant│
+│ • Persistence / ARIMA / LSTM │
+│ • Drift detection & logging  │
+│ • Generates predictions      │
+│ • Computes alerts            │
+└─────────────┬──────────────┘
+              │
+              ▼
+┌─────────────────────────────┐
+│        Backend API          │
+│ ────────────────            │
+│ • FastAPI                   │
+│ • Endpoints: /predict,      │
+│   /retrain, /alerts         │
+│ • Saves predictions/alerts  │
+│   to DB                     │
+│ • Logs all API calls/errors │
+└─────────────┬──────────────┘
+              │
+              ▼
+┌─────────────────────────────┐
+│      Streamlit Dashboard    │
+│ ────────────────            │
+│ • Tabs:                     │
+│   1. Forecast Table         │
+│   2. Daily / Weekly / Monthly Trends │
+│   3. AQI Heatmap            │
+│   4. Overall AQI Gauge      │
+│   5. Latest High-Risk Alerts│
+│   6. Per-Pollutant Gauges & Trends │
+│   7. Alerts History         │
+│ • Admin panel: CSV upload + retrain│
+│ • Sidebar: Log viewer       │
+└─────────────────────────────┘

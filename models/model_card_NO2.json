@@ -1,0 +1,12 @@
+{
+  "model_name": "NO2 LSTM",
+  "pollutant": "NO2",
+  "type": "LSTM Time Series Forecasting",
+  "version": "v1.0",
+  "training_date": "2025-09-20",
+  "data_source": "CPCB / OpenAQ",
+  "MAE": 8.5,
+  "RMSE": 10.2,
+  "intended_use": "Forecast NO2 levels for air quality management and alerting.",
+  "limitations": "Performance depends on historical NO2 trends and station coverage."
+}

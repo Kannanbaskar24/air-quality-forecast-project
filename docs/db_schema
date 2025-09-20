@@ -1,0 +1,50 @@
++------------------+
+|  measurements    |
++------------------+
+| id (PK)          |
+| station_id       |
+| timestamp        |
+| PM2_5            |
+| PM10             |
+| NO2              |
+| O3               |
+| CO               |
+| SO2              |
++------------------+
+
++------------------+
+|   predictions    |
++------------------+
+| id (PK)          |
+| station_id       |
+| timestamp        |
+| pollutant        |
+| predicted_value  |
+| model_name       |
+| created_at       |
++------------------+
+
++------------------+
+|     alerts       |
++------------------+
+| id (PK)          |
+| station_id       |
+| timestamp        |
+| pollutant        |
+| AQI_category     |
+| alert_level      |
+| created_at       |
++------------------+
+
++------------------+
+|      models      |
++------------------+
+| id (PK)          |
+| model_name       |
+| pollutant        |
+| type             |
+| version          |
+| training_date    |
+| MAE              |
+| RMSE             |
++------------------+
