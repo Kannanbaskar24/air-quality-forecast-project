@@ -1,0 +1,12 @@
+{
+    "model_name": "NO2 LSTM",
+    "pollutant": "NO2",
+    "type": "Persistence Model",
+    "version": "v1.0",
+    "training_date": "2025-09-29",
+    "data_source": "CPCB / OpenAQ",
+    "MAE": 15.97894428379659,
+    "RMSE": null,
+    "intended_use": "Forecast NO2 levels for air quality management and alerting.",
+    "limitations": "Performance depends on historical NO2 trends and station coverage."
+}

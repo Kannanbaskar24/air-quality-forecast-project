@@ -1,0 +1,12 @@
+{
+    "model_name": "NOx LSTM",
+    "pollutant": "NOx",
+    "type": "LSTM Model",
+    "version": "v1.0",
+    "training_date": "2025-09-29",
+    "data_source": "CPCB / OpenAQ",
+    "MAE": 15.892867,
+    "RMSE": 20.196671,
+    "intended_use": "Predict NOx concentrations to support regulatory and health assessments.",
+    "limitations": "May not capture local emission variability well."
+}

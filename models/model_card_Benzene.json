@@ -1,0 +1,12 @@
+{
+  "model_name": "Benzene Concentration Forecast Model",
+  "pollutant": "Benzene",
+  "type": "Time Series Regression",
+  "version": "1.0.0",
+  "training_date": "2025-09-25",
+  "data_source": "Air Quality Monitoring Stations - Urban Areas",
+  "MAE": 0.75,
+  "RMSE": 1.10,
+  "intended_use": "Predicts hourly benzene concentration for urban air quality management.",
+  "limitations": "Model performance may degrade with sudden industrial or traffic emission changes."
+}

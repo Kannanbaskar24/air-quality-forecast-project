@@ -1,0 +1,12 @@
+{
+    "model_name": "Toluene LSTM",
+    "pollutant": "Toluene",
+    "type": "LSTM Model",
+    "version": "v1.0",
+    "training_date": "2025-09-29",
+    "data_source": "CPCB / OpenAQ",
+    "MAE": 6.517224,
+    "RMSE": 7.901838,
+    "intended_use": "Model toluene concentrations for industrial emissions monitoring.",
+    "limitations": "May not reflect short-term spikes accurately."
+}

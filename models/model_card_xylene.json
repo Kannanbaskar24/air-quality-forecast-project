@@ -1,0 +1,12 @@
+{
+    "model_name": "Xylene ARIMA",
+    "pollutant": "Xylene",
+    "type": "ARIMA Model",
+    "version": "v1.0",
+    "training_date": "2025-09-29",
+    "data_source": "CPCB / OpenAQ",
+    "MAE": 1.805651,
+    "RMSE": 2.348106,
+    "intended_use": "Forecast ambient xylene levels for environmental safety compliance.",
+    "limitations": "Limited predictability during irregular industrial activity."
+}

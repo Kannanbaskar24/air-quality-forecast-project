@@ -1,0 +1,12 @@
+{
+    "model_name": "PM10 LSTM",
+    "pollutant": "PM10",
+    "type": "Persistence Model",
+    "version": "v1.0",
+    "training_date": "2025-09-29",
+    "data_source": "CPCB / OpenAQ",
+    "MAE": 34.7049319222927,
+    "RMSE": null,
+    "intended_use": "Forecast air quality for PM10 to help authorities issue alerts.",
+    "limitations": "Valid for urban monitoring stations. Accuracy may decrease in highly industrial regions."
+}

@@ -1,0 +1,12 @@
+{
+  "model_name": "Ammonia (NH3) Concentration Forecast Model",
+  "pollutant": "NH3",
+  "type": "Time Series Regression",
+  "version": "1.0.0",
+  "training_date": "2025-09-25",
+  "data_source": "Agriculture and Urban Air Measurements",
+  "MAE": 0.65,
+  "RMSE": 1.05,
+  "intended_use": "Forecasts ammonia levels for environmental monitoring and policy support.",
+  "limitations": "Limited data from rural areas may affect accuracy in non-urban settings."
+}

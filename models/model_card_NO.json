@@ -1,0 +1,12 @@
+{
+    "model_name": "NO LSTM",
+    "pollutant": "NO",
+    "type": "LSTM Model",
+    "version": "v1.0",
+    "training_date": "2025-09-29",
+    "data_source": "CPCB / OpenAQ",
+    "MAE": 9.357396,
+    "RMSE": 11.629328,
+    "intended_use": "Forecast NO levels for air quality monitoring and public health safety.",
+    "limitations": "May underperform during abnormal emission events."
+}

@@ -1,0 +1,12 @@
+{
+    "model_name": "O3 LSTM",
+    "pollutant": "O3",
+    "type": "Persistence Model",
+    "version": "v1.0",
+    "training_date": "2025-09-29",
+    "data_source": "CPCB / OpenAQ",
+    "MAE": 11.796356322960467,
+    "RMSE": null,
+    "intended_use": "Forecast ozone levels to support air quality monitoring.",
+    "limitations": "May not accurately predict short-term ozone spikes in industrial regions."
+}

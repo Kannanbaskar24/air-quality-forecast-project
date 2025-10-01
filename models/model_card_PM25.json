@@ -1,0 +1,12 @@
+{
+    "model_name": "PM2.5 LSTM",
+    "pollutant": "PM2.5",
+    "type": "Persistence Model",
+    "version": "v1.0",
+    "training_date": "2025-09-29",
+    "data_source": "CPCB / OpenAQ",
+    "MAE": 26.089398858367925,
+    "RMSE": null,
+    "intended_use": "Forecast air quality for PM2.5 to help authorities take preventive actions.",
+    "limitations": "Valid for stations with historical PM2.5 data. May not generalize to industrial zones with extreme pollution."
+}

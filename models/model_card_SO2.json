@@ -1,0 +1,12 @@
+{
+    "model_name": "SO2 LSTM",
+    "pollutant": "SO2",
+    "type": "Persistence Model",
+    "version": "v1.0",
+    "training_date": "2025-09-29",
+    "data_source": "CPCB / OpenAQ",
+    "MAE": 7.48893883167067,
+    "RMSE": null,
+    "intended_use": "Forecast SO2 levels for environmental monitoring and alerts.",
+    "limitations": "Valid for stations with consistent SO2 readings. May not capture sudden industrial emissions."
+}

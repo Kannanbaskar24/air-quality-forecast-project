@@ -1,0 +1,12 @@
+{
+    "model_name": "CO LSTM",
+    "pollutant": "CO",
+    "type": "Persistence Model",
+    "version": "v1.0",
+    "training_date": "2025-09-29",
+    "data_source": "CPCB / OpenAQ",
+    "MAE": 258.49799397162724,
+    "RMSE": null,
+    "intended_use": "Forecast CO levels to support air quality alerts and public health decisions.",
+    "limitations": "Prediction accuracy may vary in areas with irregular traffic patterns."
+}
