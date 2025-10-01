@@ -1,4 +1,5 @@
 # === Imports and initial setup ===
+import threading
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -232,7 +233,7 @@ with st.sidebar.expander("📊 Model Info", expanded=True):
     else:
         st.info("No model info available for this pollutant.")
 
-# ===================== Admin Panel =====================
+# Admin Panel Login
 st.sidebar.header("Admin Panel Login")
 admin_password = st.sidebar.text_input("Enter Admin Password", type="password")
 is_admin = False
@@ -242,32 +243,57 @@ if admin_password == os.environ.get("AIRAWARE_ADMIN_PASSWORD", "changeme"):
 elif admin_password:
     st.sidebar.error("Incorrect Password")
 
+# Cached CSV Load: avoids re-parsing CSV if unchanged
+@st.cache_data(show_spinner=False)
+def load_csv(file):
+    return pd.read_csv(file, index_col=0, parse_dates=True)
+
+# Background retrain function with session state flagging
+def retrain_background(historical_csv):
+    try:
+        result = retrain_all_models(historical_csv)
+        st.session_state["retrain_result"] = result
+    except Exception as e:
+        st.session_state["retrain_error"] = str(e)
+    finally:
+        st.session_state["retrain_running"] = False
+
 if is_admin:
     uploaded_file = st.sidebar.file_uploader("Upload CSV", type=["csv"])
     if uploaded_file:
         try:
-            new_df = pd.read_csv(uploaded_file, index_col=0, parse_dates=True)
+            new_df = load_csv(uploaded_file)
+            historical_csv = "path/to/historical.csv"  # Set actual path
             new_df.to_csv(historical_csv, index=True)
             st.sidebar.success(f"Uploaded {len(new_df)} rows successfully.")
             logger.info(f"Admin uploaded CSV with {len(new_df)} rows")
-            st.rerun()
+            # Avoid full rerun here; just update state or UI message
         except Exception as e:
             logger.error(f"Error uploading CSV: {e}")
+            st.sidebar.error(f"Error uploading CSV: {e}")
 
     if st.sidebar.button("🔄 Retrain Models"):
-        with st.spinner("Retraining models..."):
-            try:
-                result = retrain_all_models(historical_csv)
-                logger.info("Admin triggered retraining via Streamlit")
-                st.success("✅ Retraining finished successfully.")
-                st.info(f"Forecast saved: {result['forecast_path']}")
-                st.info(f"Alerts saved: {result['alerts_path']}")
-                st.info(f"Metrics saved: {result['metrics_path']}")
-                st.rerun()
-            except Exception as e:
-                logger.error(f"Error during retraining via Streamlit: {e}")
-                st.error("Retraining failed — see logs.")
-                st.text(traceback.format_exc())
+        if "retrain_running" not in st.session_state or not st.session_state["retrain_running"]:
+            st.session_state["retrain_running"] = True
+            threading.Thread(target=retrain_background, args=(historical_csv,), daemon=True).start()
+            st.info("Retraining started in background... please wait.")
+        else:
+            st.warning("Retraining already in progress...")
+
+if "retrain_running" in st.session_state and st.session_state["retrain_running"]:
+    st.spinner("Retraining models, please wait...")
+
+if "retrain_result" in st.session_state:
+    result = st.session_state.pop("retrain_result")
+    st.success("✅ Retraining finished successfully.")
+    st.info(f"Forecast saved: {result['forecast_path']}")
+    st.info(f"Alerts saved: {result['alerts_path']}")
+    st.info(f"Metrics saved: {result['metrics_path']}")
+
+if "retrain_error" in st.session_state:
+    st.error("Retraining failed — see logs.")
+    st.text(st.session_state.pop("retrain_error"))
+
 
 # ===================== Tabs =====================
 tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9 = st.tabs([
