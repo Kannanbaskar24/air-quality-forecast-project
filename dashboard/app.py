@@ -12,15 +12,27 @@ import traceback
 from pathlib import Path
 import sys
 
+# Add the parent directory (if you use src modules)
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from src.logger import get_logger
 from src.train import retrain_all_models
 from src.db import SessionLocal, Prediction, Alert
-from src.inference import forecast_future  # Import forecast func
+from src.inference import forecast_future
+
+# === Import AQI categorization and mapping logic ===
+from src.aqi import (
+    categorize_pm25, categorize_pm10, categorize_no2, categorize_o3, categorize_co,
+    categorize_so2, categorize_nh3, categorize_benzene, categorize_toluene,
+    categorize_xylene, categorize_nox, categorize_no,
+    category_mapping, reverse_mapping, pollutants,
+    compute_overall_aqi_from_df
+)
 
 logger = get_logger()
 
 st.set_page_config(page_title="AirAware - Air Quality Forecast", layout="wide")
+
 
 # === Paths and Data ===
 BASE_DIR = Path(__file__).resolve().parent
@@ -51,60 +63,6 @@ def load_model_card(pollutant):
     # If neither exists, return None
     return None
 
-# ===================== Pollutants & Mappings =====================
-pollutants = ["PM2.5","PM10","NO2","O3","CO","SO2","NH3","Benzene","Toluene","Xylene","NOx","NO"]
-
-category_mapping = {"Good":1,"Moderate":2,"Unhealthy for Sensitive Groups":3,
-                    "Unhealthy":4,"Very Unhealthy":5,"Hazardous":6,"Unknown":0}
-reverse_mapping = {v:k for k,v in category_mapping.items()}
-# ===================== AQI Categorization Functions =====================
-def categorize_pm25(val):
-    if val <= 12: return "Good"
-    elif val <= 35.4: return "Moderate"
-    elif val <= 55.4: return "Unhealthy for Sensitive Groups"
-    elif val <= 150.4: return "Unhealthy"
-    elif val <= 250.4: return "Very Unhealthy"
-    else: return "Hazardous"
-
-def categorize_pm10(val):
-    if val <= 54: return "Good"
-    elif val <= 154: return "Moderate"
-    elif val <= 254: return "Unhealthy for Sensitive Groups"
-    elif val <= 354: return "Unhealthy"
-    elif val <= 424: return "Very Unhealthy"
-    else: return "Hazardous"
-
-def categorize_no2(val):
-    if val <= 53: return "Good"
-    elif val <= 100: return "Moderate"
-    elif val <= 360: return "Unhealthy for Sensitive Groups"
-    elif val <= 649: return "Unhealthy"
-    elif val <= 1249: return "Very Unhealthy"
-    else: return "Hazardous"
-
-def categorize_o3(val):
-    if val <= 54: return "Good"
-    elif val <= 70: return "Moderate"
-    elif val <= 85: return "Unhealthy for Sensitive Groups"
-    elif val <= 105: return "Unhealthy"
-    elif val <= 200: return "Very Unhealthy"
-    else: return "Hazardous"
-
-def categorize_co(val):
-    if val <= 4.4: return "Good"
-    elif val <= 9.4: return "Moderate"
-    elif val <= 12.4: return "Unhealthy for Sensitive Groups"
-    elif val <= 15.4: return "Unhealthy"
-    elif val <= 30.4: return "Very Unhealthy"
-    else: return "Hazardous"
-
-def categorize_so2(val):
-    if val <= 35: return "Good"
-    elif val <= 75: return "Moderate"
-    elif val <= 185: return "Unhealthy for Sensitive Groups"
-    elif val <= 304: return "Unhealthy"
-    elif val <= 604: return "Very Unhealthy"
-    else: return "Hazardous"
 
 # === Load and process historical data ===
 @st.cache_data
@@ -232,6 +190,8 @@ with st.sidebar.expander("📊 Model Info", expanded=True):
         st.markdown(f"**Limitations:** {card.get('limitations','-')}")
     else:
         st.info("No model info available for this pollutant.")
+
+
 
 # Admin Panel Login
 st.sidebar.header("Admin Panel Login")
@@ -692,46 +652,56 @@ with tab6:
                            'bar': {'color': color},
                            'steps':[{'range':[i,i+1], 'color':c} for i,c in enumerate(gauge_colors)]}
                 ))
-                fig_gauge.update_layout(height=300)
+                fig_gauge.update_layout(height=400)
                 st.plotly_chart(fig_gauge, use_container_width=True)
         
         logger.info("Displayed latest day AQI gauges for all pollutants")
 
+        # Utility function to get the last valid non-null entry in a column
+        def get_latest_valid_value(df, col):
+            valid_idx = df[col].last_valid_index()
+            if valid_idx is not None:
+                return df.loc[valid_idx, col]
+            return None
+
         # --- Pollutant Comparison Table ---
         st.subheader("📋 Current Pollutant Levels Comparison")
-        
+
         comparison_data = []
         for pollutant in pollutants:
             if pollutant in filtered_df.columns:
                 try:
-                    # Safe handling of latest values
-                    latest_val = filtered_df[pollutant].iloc[-1] if not filtered_df[pollutant].empty else 0
-                    latest_val = float(latest_val) if pd.notna(latest_val) else 0.0
-                    
-                    if f"{pollutant}_AQI_Level" in filtered_df.columns:
-                        aqi_level = filtered_df[f"{pollutant}_AQI_Level"].iloc[-1]
-                        aqi_level = int(aqi_level) if pd.notna(aqi_level) else 0
+                    # Get latest valid concentration value
+                    latest_val = get_latest_valid_value(filtered_df, pollutant)
+                    latest_val = float(latest_val) if latest_val is not None and pd.notna(latest_val) else 0.0
+
+                    # Get latest valid AQI level
+                    aqi_col = f"{pollutant}_AQI_Level"
+                    if aqi_col in filtered_df.columns:
+                        aqi_level_val = get_latest_valid_value(filtered_df, aqi_col)
+                        aqi_level = int(aqi_level_val) if aqi_level_val is not None and pd.notna(aqi_level_val) else 0
                     else:
                         aqi_level = 0
-                    
-                    # Ensure aqi_level is within bounds
+
+                    # Clamp AQI level between 0 and 6
                     aqi_level = max(0, min(6, aqi_level))
-                    
-                    # Calculate trend (compared to previous reading)
+
+                    # Calculate trend (compared to previous valid reading)
+                    trend = 0.0
+                    trend_icon = '➡️'
                     if len(filtered_df) >= 2:
-                        prev_val = filtered_df[pollutant].iloc[-2] if not filtered_df[pollutant].empty else latest_val
-                        prev_val = float(prev_val) if pd.notna(prev_val) else latest_val
-                        
-                        if prev_val != 0:
-                            trend = ((latest_val - prev_val) / prev_val * 100)
-                        else:
-                            trend = 0.0
-                        
-                        trend_icon = '📈' if trend > 5 else '📉' if trend < -5 else '➡️'
-                    else:
-                        trend = 0.0
-                        trend_icon = '➡️'
-                    
+                        prev_idx = filtered_df[pollutant].last_valid_index()
+                        if prev_idx is not None:
+                            # Get all previous valid indices before the last
+                            valid_indices = filtered_df[pollutant].dropna().index.to_list()
+                            if len(valid_indices) > 1:
+                                prev_val_idx = valid_indices[-2]
+                                prev_val = filtered_df.loc[prev_val_idx, pollutant]
+                                prev_val = float(prev_val) if pd.notna(prev_val) else latest_val
+                                if prev_val != 0:
+                                    trend = ((latest_val - prev_val) / prev_val) * 100
+                                trend_icon = '📈' if trend > 5 else '📉' if trend < -5 else '➡️'
+
                     comparison_data.append({
                         'Pollutant': pollutant,
                         'Current Level (μg/m³)': f"{latest_val:.2f}",
@@ -740,7 +710,7 @@ with tab6:
                         'Status': ['Unknown', 'Good', 'Moderate', 'USG', 'Unhealthy', 'Very Unhealthy', 'Hazardous'][aqi_level],
                         'Health Impact': ['No data', 'Minimal', 'Acceptable', 'Sensitive affected', 'Everyone affected', 'Health warnings', 'Emergency'][aqi_level]
                     })
-                    
+
                 except Exception as e:
                     logger.error(f"Error processing comparison data for {pollutant}: {e}")
                     comparison_data.append({
@@ -751,10 +721,10 @@ with tab6:
                         'Status': 'Unknown',
                         'Health Impact': 'No data'
                     })
-        
+
         if comparison_data:
             comparison_df = pd.DataFrame(comparison_data)
-            
+
             # Color coding function for the comparison table
             def color_comparison_aqi(row):
                 try:
@@ -773,12 +743,12 @@ with tab6:
                         return [''] * 6
                 except Exception:
                     return [''] * 6
-            
+
             st.dataframe(
                 comparison_df.style.apply(color_comparison_aqi, axis=1),
                 hide_index=True
             )
-            
+
             # Download button for comparison data
             st.download_button(
                 label="📥 Download Pollutant Comparison",

@@ -1,50 +1,24 @@
-+------------------+
-|  measurements    |
-+------------------+
-| id (PK)          |
-| station_id       |
-| timestamp        |
-| PM2_5            |
-| PM10             |
-| NO2              |
-| O3               |
-| CO               |
-| SO2              |
-+------------------+
-
-+------------------+
-|   predictions    |
-+------------------+
-| id (PK)          |
-| station_id       |
-| timestamp        |
-| pollutant        |
-| predicted_value  |
-| model_name       |
-| created_at       |
-+------------------+
-
-+------------------+
-|     alerts       |
-+------------------+
-| id (PK)          |
-| station_id       |
-| timestamp        |
-| pollutant        |
-| AQI_category     |
-| alert_level      |
-| created_at       |
-+------------------+
-
-+------------------+
-|      models      |
-+------------------+
-| id (PK)          |
-| model_name       |
-| pollutant        |
-| type             |
-| version          |
-| training_date    |
-| MAE              |
-| RMSE             |
-+------------------+
++---------------------+          +---------------------+
+|    measurements     |          |       models        |
++---------------------+          +---------------------+
+| id (PK)             |          | id (PK)             |
+| timestamp           |          | model_name          |
+| station_id          |----------| version             |
+| pollutant           |          | mae                 |
+| value               |          | rmse                |
++---------------------+          | trained_at          |
+        |                         +---------------------+
+        |
+        | 
+        | * (many measurements per station)
+        | 1
+        |
++---------------------+          +---------------------+
+|    predictions      |          |       alerts        |
++---------------------+          +---------------------+
+| id (PK)             |          | id (PK)             |
+| date                |          | date                |
+| pollutant           |          | overall_aqi_category|
+| value               |--------- | message             |
+| model_name          |          +---------------------+
++---------------------+

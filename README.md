@@ -73,28 +73,36 @@ Four main layers:
 ## Installation
 
 1. Clone the repository:
-```bash
 git clone <your-repo-url>
 cd AirAware
 
-2. Create a virtual environment and install dependencies:
+2. Create and activate a virtual environment:
 python -m venv myenv
-myenv\Scripts\activate       # Windows
-source myenv/bin/activate    # Linux/Mac
+
+Windows
+myenv\Scripts\activate
+
+Linux/Mac
+source myenv/bin/activate
+
+3. Install dependencies:
 pip install -r requirements.txt
 
-3. Run the Streamlit dashboard:
+4. Run the Streamlit dashboard:
 streamlit run app.py
 
-4. Run the API:
+5. Run the API:
 uvicorn serve_api:app --reload
+undefined
 
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-Future Enhancements
+## Future Enhancements
 Real-time data integration from air quality sensors.
 Mobile-friendly interface with push notifications.
 Multi-city forecasting with regional comparison.
 Integration with weather data for more accurate predictions.
 
-Contributors
+## Contributors
 Kannan Baskar

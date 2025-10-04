@@ -10973,3 +10973,1479 @@ FROM alerts
 2025-10-01 14:39:49 | INFO | Displayed overall AQI daily trend
 2025-10-01 14:42:22 | INFO | Displayed latest day AQI gauges for all pollutants
 2025-10-01 14:42:23 | INFO | Displayed daily (last 30 days) AQI trends per pollutant
+2025-10-01 15:12:14 | INFO | Loaded historical data: C:\Users\parka\OneDrive\Attachments\Documents\air-quality-forecast\dashboard\..\data\processed\air_quality_cleaned.csv (29531 rows)
+2025-10-01 15:12:15 | INFO | SELECT DATABASE()
+2025-10-01 15:12:15 | INFO | [raw sql] {}
+2025-10-01 15:12:15 | INFO | SELECT @@sql_mode
+2025-10-01 15:12:15 | INFO | [raw sql] {}
+2025-10-01 15:12:15 | INFO | SELECT @@lower_case_table_names
+2025-10-01 15:12:15 | INFO | [raw sql] {}
+2025-10-01 15:12:15 | INFO | BEGIN (implicit)
+2025-10-01 15:12:15 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-01 15:12:15 | INFO | [generated in 0.07926s] {}
+2025-10-01 15:12:15 | INFO | ROLLBACK
+2025-10-01 15:12:15 | INFO | Fetched 14 forecast rows
+2025-10-01 15:12:15 | INFO | BEGIN (implicit)
+2025-10-01 15:12:15 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-01 15:12:15 | INFO | [generated in 0.00524s] {}
+2025-10-01 15:12:15 | INFO | ROLLBACK
+2025-10-01 15:12:15 | INFO | Fetched 2933 alerts
+2025-10-01 15:12:21 | INFO | Displayed daily trend for PM2.5
+2025-10-01 15:12:22 | INFO | Displayed weekly trend for PM2.5
+2025-10-01 15:12:23 | INFO | Displayed monthly trend for PM2.5
+2025-10-01 15:12:24 | INFO | Displayed overall AQI daily trend
+2025-10-01 15:14:54 | INFO | BEGIN (implicit)
+2025-10-01 15:14:54 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-01 15:14:54 | INFO | [cached since 159s ago] {}
+2025-10-01 15:14:54 | INFO | ROLLBACK
+2025-10-01 15:14:54 | INFO | Fetched 14 forecast rows
+2025-10-01 15:14:54 | INFO | BEGIN (implicit)
+2025-10-01 15:14:54 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-01 15:14:54 | INFO | [cached since 158.9s ago] {}
+2025-10-01 15:14:54 | INFO | ROLLBACK
+2025-10-01 15:14:54 | INFO | Fetched 2933 alerts
+2025-10-01 15:14:57 | WARNING | From C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-10-01 15:15:02 | INFO | Displayed daily trend for PM2.5
+2025-10-01 15:15:03 | INFO | Displayed weekly trend for PM2.5
+2025-10-01 15:15:04 | INFO | Displayed monthly trend for PM2.5
+2025-10-01 15:15:05 | INFO | Displayed overall AQI daily trend
+2025-10-01 15:15:15 | INFO | BEGIN (implicit)
+2025-10-01 15:15:15 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-01 15:15:15 | INFO | [cached since 179.7s ago] {}
+2025-10-01 15:15:15 | INFO | ROLLBACK
+2025-10-01 15:15:15 | INFO | Fetched 14 forecast rows
+2025-10-01 15:15:15 | INFO | BEGIN (implicit)
+2025-10-01 15:15:15 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-01 15:15:15 | INFO | [cached since 179.7s ago] {}
+2025-10-01 15:15:17 | INFO | ROLLBACK
+2025-10-01 15:15:17 | INFO | Fetched 2933 alerts
+2025-10-01 15:15:24 | INFO | Displayed daily trend for PM2.5
+2025-10-01 15:15:24 | INFO | Displayed weekly trend for PM2.5
+2025-10-01 15:15:26 | INFO | Displayed monthly trend for PM2.5
+2025-10-01 15:15:27 | INFO | Displayed overall AQI daily trend
+2025-10-01 15:16:47 | INFO | BEGIN (implicit)
+2025-10-01 15:16:47 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-01 15:16:47 | INFO | [cached since 272.4s ago] {}
+2025-10-01 15:16:47 | INFO | ROLLBACK
+2025-10-01 15:16:47 | INFO | Fetched 14 forecast rows
+2025-10-01 15:16:47 | INFO | BEGIN (implicit)
+2025-10-01 15:16:47 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-01 15:16:47 | INFO | [cached since 272.2s ago] {}
+2025-10-01 15:16:48 | INFO | ROLLBACK
+2025-10-01 15:16:48 | INFO | Fetched 2933 alerts
+2025-10-01 15:17:14 | INFO | Displayed daily trend for PM2.5
+2025-10-01 15:17:16 | INFO | Displayed weekly trend for PM2.5
+2025-10-01 15:17:17 | INFO | Displayed monthly trend for PM2.5
+2025-10-01 15:17:18 | INFO | Displayed overall AQI daily trend
+2025-10-01 15:17:56 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-01 15:17:58 | INFO | Displayed daily (last 30 days) AQI trends per pollutant
+2025-10-01 15:19:03 | INFO | BEGIN (implicit)
+2025-10-01 15:19:03 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-01 15:19:03 | INFO | [cached since 408.1s ago] {}
+2025-10-01 15:19:03 | INFO | ROLLBACK
+2025-10-01 15:19:03 | INFO | Fetched 14 forecast rows
+2025-10-01 15:19:03 | INFO | BEGIN (implicit)
+2025-10-01 15:19:03 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-01 15:19:03 | INFO | [cached since 408s ago] {}
+2025-10-01 15:19:03 | INFO | ROLLBACK
+2025-10-01 15:19:03 | INFO | Fetched 2933 alerts
+2025-10-01 15:19:06 | INFO | Displayed daily trend for PM2.5
+2025-10-01 15:19:07 | INFO | Displayed weekly trend for PM2.5
+2025-10-01 15:19:08 | INFO | Displayed monthly trend for PM2.5
+2025-10-01 15:19:09 | INFO | Displayed overall AQI daily trend
+2025-10-01 15:19:22 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-01 15:19:23 | INFO | Displayed daily (last 30 days) AQI trends per pollutant
+2025-10-01 15:20:44 | INFO | BEGIN (implicit)
+2025-10-01 15:20:45 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-01 15:20:45 | INFO | [cached since 510.4s ago] {}
+2025-10-01 15:20:46 | INFO | ROLLBACK
+2025-10-01 15:20:46 | INFO | Fetched 14 forecast rows
+2025-10-01 15:20:46 | INFO | BEGIN (implicit)
+2025-10-01 15:20:46 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-01 15:20:46 | INFO | [cached since 510.3s ago] {}
+2025-10-01 15:20:46 | INFO | ROLLBACK
+2025-10-01 15:20:46 | INFO | Fetched 2933 alerts
+2025-10-01 15:20:49 | INFO | Displayed daily trend for PM2.5
+2025-10-01 15:20:51 | INFO | Displayed weekly trend for PM2.5
+2025-10-01 15:20:53 | INFO | Displayed monthly trend for PM2.5
+2025-10-01 15:20:54 | INFO | Displayed overall AQI daily trend
+2025-10-01 15:21:10 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-01 15:21:11 | INFO | Displayed daily (last 30 days) AQI trends per pollutant
+2025-10-01 15:21:46 | INFO | BEGIN (implicit)
+2025-10-01 15:21:46 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-01 15:21:46 | INFO | [cached since 570.6s ago] {}
+2025-10-01 15:21:46 | INFO | ROLLBACK
+2025-10-01 15:21:46 | INFO | Fetched 14 forecast rows
+2025-10-01 15:21:46 | INFO | BEGIN (implicit)
+2025-10-01 15:21:48 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-01 15:21:48 | INFO | [cached since 572.5s ago] {}
+2025-10-01 15:21:48 | INFO | ROLLBACK
+2025-10-01 15:21:48 | INFO | Fetched 2933 alerts
+2025-10-01 15:21:50 | INFO | Displayed daily trend for PM2.5
+2025-10-01 15:21:51 | INFO | Displayed weekly trend for PM2.5
+2025-10-01 15:21:52 | INFO | Displayed monthly trend for PM2.5
+2025-10-01 15:21:54 | INFO | Displayed overall AQI daily trend
+2025-10-01 15:22:08 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-01 15:22:10 | INFO | Displayed daily (last 30 days) AQI trends per pollutant
+2025-10-01 15:22:16 | INFO | BEGIN (implicit)
+2025-10-01 15:22:16 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-01 15:22:16 | INFO | [cached since 601s ago] {}
+2025-10-01 15:22:16 | INFO | ROLLBACK
+2025-10-01 15:22:16 | INFO | Fetched 14 forecast rows
+2025-10-01 15:22:16 | INFO | BEGIN (implicit)
+2025-10-01 15:22:16 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-01 15:22:16 | INFO | [cached since 601s ago] {}
+2025-10-01 15:22:19 | INFO | ROLLBACK
+2025-10-01 15:22:19 | INFO | Fetched 2933 alerts
+2025-10-01 15:22:24 | INFO | Displayed daily trend for PM2.5
+2025-10-01 15:22:25 | INFO | Displayed weekly trend for PM2.5
+2025-10-01 15:22:26 | INFO | Displayed monthly trend for PM2.5
+2025-10-01 15:22:27 | INFO | Displayed overall AQI daily trend
+2025-10-01 15:22:41 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-01 15:22:42 | INFO | Displayed monthly AQI trends per pollutant
+2025-10-01 15:23:33 | INFO | BEGIN (implicit)
+2025-10-01 15:23:33 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-01 15:23:33 | INFO | [cached since 677.9s ago] {}
+2025-10-01 15:23:33 | INFO | ROLLBACK
+2025-10-01 15:23:33 | INFO | Fetched 14 forecast rows
+2025-10-01 15:23:33 | INFO | BEGIN (implicit)
+2025-10-01 15:23:33 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-01 15:23:33 | INFO | [cached since 678s ago] {}
+2025-10-01 15:23:33 | INFO | ROLLBACK
+2025-10-01 15:23:33 | INFO | Fetched 2933 alerts
+2025-10-01 15:23:36 | INFO | Displayed daily trend for PM2.5
+2025-10-01 15:23:36 | INFO | Displayed weekly trend for PM2.5
+2025-10-01 15:23:37 | INFO | Displayed monthly trend for PM2.5
+2025-10-01 15:23:38 | INFO | Displayed overall AQI daily trend
+2025-10-01 15:23:52 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-01 15:23:54 | INFO | Displayed monthly AQI trends per pollutant
+2025-10-01 15:24:14 | INFO | BEGIN (implicit)
+2025-10-01 15:24:14 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-01 15:24:14 | INFO | [cached since 719.4s ago] {}
+2025-10-01 15:24:14 | INFO | ROLLBACK
+2025-10-01 15:24:15 | INFO | Fetched 14 forecast rows
+2025-10-01 15:24:15 | INFO | BEGIN (implicit)
+2025-10-01 15:24:15 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-01 15:24:15 | INFO | [cached since 719.4s ago] {}
+2025-10-01 15:24:15 | INFO | ROLLBACK
+2025-10-01 15:24:15 | INFO | Fetched 2933 alerts
+2025-10-01 15:24:18 | INFO | Displayed daily trend for PM2.5
+2025-10-01 15:24:19 | INFO | Displayed weekly trend for PM2.5
+2025-10-01 15:24:20 | INFO | Displayed monthly trend for PM2.5
+2025-10-01 15:24:21 | INFO | Displayed overall AQI daily trend
+2025-10-01 15:24:36 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-01 15:24:38 | INFO | Displayed monthly AQI trends per pollutant
+2025-10-01 15:25:11 | INFO | BEGIN (implicit)
+2025-10-01 15:25:11 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-01 15:25:11 | INFO | [cached since 776s ago] {}
+2025-10-01 15:25:11 | INFO | ROLLBACK
+2025-10-01 15:25:11 | INFO | Fetched 14 forecast rows
+2025-10-01 15:25:11 | INFO | BEGIN (implicit)
+2025-10-01 15:25:11 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-01 15:25:11 | INFO | [cached since 775.8s ago] {}
+2025-10-01 15:25:11 | INFO | ROLLBACK
+2025-10-01 15:25:11 | INFO | Fetched 2933 alerts
+2025-10-01 15:25:14 | INFO | Displayed daily trend for PM2.5
+2025-10-01 15:25:15 | INFO | Displayed weekly trend for PM2.5
+2025-10-01 15:25:16 | INFO | Displayed monthly trend for PM2.5
+2025-10-01 15:25:17 | INFO | Displayed overall AQI daily trend
+2025-10-01 15:25:29 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-01 15:25:30 | INFO | Displayed monthly AQI trends per pollutant
+2025-10-01 15:25:54 | INFO | BEGIN (implicit)
+2025-10-01 15:25:54 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-01 15:25:54 | INFO | [cached since 819s ago] {}
+2025-10-01 15:25:54 | INFO | ROLLBACK
+2025-10-01 15:25:54 | INFO | Fetched 14 forecast rows
+2025-10-01 15:25:54 | INFO | BEGIN (implicit)
+2025-10-01 15:25:54 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-01 15:25:54 | INFO | [cached since 818.8s ago] {}
+2025-10-01 15:25:54 | INFO | ROLLBACK
+2025-10-01 15:25:54 | INFO | Fetched 2933 alerts
+2025-10-01 15:25:57 | INFO | Displayed daily trend for PM2.5
+2025-10-01 15:25:58 | INFO | Displayed weekly trend for PM2.5
+2025-10-01 15:25:59 | INFO | Displayed monthly trend for PM2.5
+2025-10-01 15:26:00 | INFO | Displayed overall AQI daily trend
+2025-10-01 15:26:14 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-01 15:26:16 | INFO | Displayed monthly AQI trends per pollutant
+2025-10-01 15:26:22 | INFO | Generated 7-day FUTURE forecast for SO2
+2025-10-01 15:26:48 | INFO | BEGIN (implicit)
+2025-10-01 15:26:49 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-01 15:26:49 | INFO | [cached since 873.5s ago] {}
+2025-10-01 15:26:49 | INFO | ROLLBACK
+2025-10-01 15:26:49 | INFO | Fetched 14 forecast rows
+2025-10-01 15:26:49 | INFO | BEGIN (implicit)
+2025-10-01 15:26:49 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-01 15:26:49 | INFO | [cached since 873.3s ago] {}
+2025-10-01 15:26:49 | INFO | ROLLBACK
+2025-10-01 15:26:49 | INFO | Fetched 2933 alerts
+2025-10-01 15:26:51 | INFO | Displayed daily trend for PM2.5
+2025-10-01 15:26:52 | INFO | Displayed weekly trend for PM2.5
+2025-10-01 15:26:53 | INFO | Displayed monthly trend for PM2.5
+2025-10-01 15:26:54 | INFO | Displayed overall AQI daily trend
+2025-10-01 15:27:07 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-01 15:27:08 | INFO | Displayed monthly AQI trends per pollutant
+2025-10-01 15:27:16 | INFO | BEGIN (implicit)
+2025-10-01 15:27:16 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-01 15:27:16 | INFO | [cached since 900.6s ago] {}
+2025-10-01 15:27:16 | INFO | ROLLBACK
+2025-10-01 15:27:16 | INFO | Fetched 14 forecast rows
+2025-10-01 15:27:16 | INFO | BEGIN (implicit)
+2025-10-01 15:27:16 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-01 15:27:16 | INFO | [cached since 900.5s ago] {}
+2025-10-01 15:27:16 | INFO | ROLLBACK
+2025-10-01 15:27:16 | INFO | Fetched 2933 alerts
+2025-10-01 15:27:19 | INFO | Displayed daily trend for PM2.5
+2025-10-01 15:27:20 | INFO | Displayed weekly trend for PM2.5
+2025-10-01 15:27:20 | INFO | Displayed monthly trend for PM2.5
+2025-10-01 15:27:21 | INFO | Displayed overall AQI daily trend
+2025-10-01 15:27:35 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-01 15:27:38 | INFO | Displayed monthly AQI trends per pollutant
+2025-10-01 15:27:45 | INFO | Generated 9-day FUTURE forecast for SO2
+2025-10-01 15:28:14 | INFO | BEGIN (implicit)
+2025-10-01 15:28:14 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-01 15:28:14 | INFO | [cached since 959.4s ago] {}
+2025-10-01 15:28:14 | INFO | ROLLBACK
+2025-10-01 15:28:14 | INFO | Fetched 14 forecast rows
+2025-10-01 15:28:15 | INFO | BEGIN (implicit)
+2025-10-01 15:28:15 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-01 15:28:15 | INFO | [cached since 959.2s ago] {}
+2025-10-01 15:28:15 | INFO | ROLLBACK
+2025-10-01 15:28:15 | INFO | Fetched 2933 alerts
+2025-10-01 15:28:18 | INFO | Displayed daily trend for PM2.5
+2025-10-01 15:28:18 | INFO | BEGIN (implicit)
+2025-10-01 15:28:18 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-01 15:28:18 | INFO | [cached since 963.4s ago] {}
+2025-10-01 15:28:19 | INFO | ROLLBACK
+2025-10-01 15:28:19 | INFO | Fetched 14 forecast rows
+2025-10-01 15:28:19 | INFO | BEGIN (implicit)
+2025-10-01 15:28:19 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-01 15:28:19 | INFO | [cached since 963.3s ago] {}
+2025-10-01 15:28:19 | INFO | ROLLBACK
+2025-10-01 15:28:19 | INFO | Fetched 2933 alerts
+2025-10-01 15:28:24 | INFO | Displayed daily trend for PM2.5
+2025-10-01 15:28:24 | INFO | Displayed weekly trend for PM2.5
+2025-10-01 15:28:28 | INFO | Displayed monthly trend for PM2.5
+2025-10-01 15:28:30 | INFO | Displayed overall AQI daily trend
+2025-10-01 15:28:43 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-01 15:28:44 | INFO | Displayed monthly AQI trends per pollutant
+2025-10-01 15:29:03 | INFO | BEGIN (implicit)
+2025-10-01 15:29:03 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-01 15:29:03 | INFO | [cached since 1008s ago] {}
+2025-10-01 15:29:04 | INFO | ROLLBACK
+2025-10-01 15:29:05 | INFO | Fetched 14 forecast rows
+2025-10-01 15:29:05 | INFO | BEGIN (implicit)
+2025-10-01 15:29:05 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-01 15:29:05 | INFO | [cached since 1009s ago] {}
+2025-10-01 15:29:05 | INFO | ROLLBACK
+2025-10-01 15:29:05 | INFO | Fetched 2933 alerts
+2025-10-01 15:29:09 | INFO | Displayed daily trend for PM2.5
+2025-10-01 15:29:10 | INFO | Displayed weekly trend for PM2.5
+2025-10-01 15:29:11 | INFO | Displayed monthly trend for PM2.5
+2025-10-01 15:29:12 | INFO | Displayed overall AQI daily trend
+2025-10-01 15:29:17 | INFO | BEGIN (implicit)
+2025-10-01 15:29:17 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-01 15:29:17 | INFO | [cached since 1022s ago] {}
+2025-10-01 15:29:17 | INFO | ROLLBACK
+2025-10-01 15:29:17 | INFO | Fetched 14 forecast rows
+2025-10-01 15:29:17 | INFO | BEGIN (implicit)
+2025-10-01 15:29:17 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-01 15:29:17 | INFO | [cached since 1022s ago] {}
+2025-10-01 15:29:17 | INFO | ROLLBACK
+2025-10-01 15:29:17 | INFO | Fetched 2933 alerts
+2025-10-01 15:29:22 | INFO | BEGIN (implicit)
+2025-10-01 15:29:22 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-01 15:29:22 | INFO | [cached since 1027s ago] {}
+2025-10-01 15:29:22 | INFO | ROLLBACK
+2025-10-01 15:29:22 | INFO | Fetched 14 forecast rows
+2025-10-01 15:29:22 | INFO | BEGIN (implicit)
+2025-10-01 15:29:22 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-01 15:29:22 | INFO | [cached since 1027s ago] {}
+2025-10-01 15:29:22 | INFO | ROLLBACK
+2025-10-01 15:29:22 | INFO | Fetched 2933 alerts
+2025-10-01 15:29:28 | INFO | BEGIN (implicit)
+2025-10-01 15:29:28 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-01 15:29:28 | INFO | [cached since 1033s ago] {}
+2025-10-01 15:29:28 | INFO | ROLLBACK
+2025-10-01 15:29:28 | INFO | Fetched 14 forecast rows
+2025-10-01 15:29:28 | INFO | BEGIN (implicit)
+2025-10-01 15:29:28 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-01 15:29:28 | INFO | [cached since 1033s ago] {}
+2025-10-01 15:29:33 | INFO | ROLLBACK
+2025-10-01 15:29:33 | INFO | Fetched 2933 alerts
+2025-10-01 15:29:35 | INFO | Displayed daily trend for Toluene
+2025-10-01 15:29:36 | INFO | Displayed weekly trend for Toluene
+2025-10-01 15:29:38 | INFO | Displayed monthly trend for Toluene
+2025-10-01 15:29:40 | INFO | Displayed overall AQI daily trend
+2025-10-01 15:29:59 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-01 15:30:01 | INFO | Displayed monthly AQI trends per pollutant
+2025-10-01 15:30:35 | INFO | BEGIN (implicit)
+2025-10-01 15:30:35 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-01 15:30:35 | INFO | [cached since 1100s ago] {}
+2025-10-01 15:30:35 | INFO | ROLLBACK
+2025-10-01 15:30:35 | INFO | Fetched 14 forecast rows
+2025-10-01 15:30:35 | INFO | BEGIN (implicit)
+2025-10-01 15:30:35 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-01 15:30:35 | INFO | [cached since 1100s ago] {}
+2025-10-01 15:30:35 | INFO | ROLLBACK
+2025-10-01 15:30:35 | INFO | Fetched 2933 alerts
+2025-10-01 15:30:37 | INFO | Displayed daily trend for NO2
+2025-10-01 15:30:38 | INFO | Displayed weekly trend for NO2
+2025-10-01 15:30:39 | INFO | Displayed monthly trend for NO2
+2025-10-01 15:30:40 | INFO | Displayed overall AQI daily trend
+2025-10-01 15:30:57 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-01 15:30:59 | INFO | Displayed monthly AQI trends per pollutant
+2025-10-01 15:31:07 | INFO | BEGIN (implicit)
+2025-10-01 15:31:07 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-01 15:31:07 | INFO | [cached since 1132s ago] {}
+2025-10-01 15:31:08 | INFO | ROLLBACK
+2025-10-01 15:31:08 | INFO | Fetched 14 forecast rows
+2025-10-01 15:31:08 | INFO | BEGIN (implicit)
+2025-10-01 15:31:08 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-01 15:31:08 | INFO | [cached since 1132s ago] {}
+2025-10-01 15:31:08 | INFO | ROLLBACK
+2025-10-01 15:31:08 | INFO | Fetched 2933 alerts
+2025-10-01 15:31:11 | INFO | Displayed daily trend for NO2
+2025-10-01 15:31:12 | INFO | Displayed weekly trend for NO2
+2025-10-01 15:31:12 | INFO | Displayed monthly trend for NO2
+2025-10-01 15:31:13 | INFO | Displayed overall AQI daily trend
+2025-10-01 15:31:27 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-01 15:31:29 | INFO | Displayed monthly AQI trends per pollutant
+2025-10-01 15:31:40 | INFO | BEGIN (implicit)
+2025-10-01 15:31:40 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-01 15:31:40 | INFO | [cached since 1165s ago] {}
+2025-10-01 15:31:40 | INFO | ROLLBACK
+2025-10-01 15:31:40 | INFO | Fetched 14 forecast rows
+2025-10-01 15:31:40 | INFO | BEGIN (implicit)
+2025-10-01 15:31:40 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-01 15:31:40 | INFO | [cached since 1165s ago] {}
+2025-10-01 15:31:40 | INFO | ROLLBACK
+2025-10-01 15:31:40 | INFO | Fetched 2933 alerts
+2025-10-01 15:31:43 | INFO | Displayed daily trend for NO2
+2025-10-01 15:31:43 | INFO | Displayed weekly trend for NO2
+2025-10-01 15:31:44 | INFO | Displayed monthly trend for NO2
+2025-10-01 15:31:45 | INFO | Displayed overall AQI daily trend
+2025-10-01 15:31:55 | INFO | BEGIN (implicit)
+2025-10-01 15:31:55 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-01 15:31:55 | INFO | [cached since 1180s ago] {}
+2025-10-01 15:31:55 | INFO | ROLLBACK
+2025-10-01 15:31:55 | INFO | Fetched 14 forecast rows
+2025-10-01 15:31:55 | INFO | BEGIN (implicit)
+2025-10-01 15:31:55 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-01 15:31:55 | INFO | [cached since 1180s ago] {}
+2025-10-01 15:31:57 | INFO | ROLLBACK
+2025-10-01 15:31:57 | INFO | Fetched 2933 alerts
+2025-10-01 15:31:59 | INFO | Starting retraining of all models...
+2025-10-01 15:32:00 | ERROR | Error during retraining: Unknown datetime string format, unable to parse: Ahmedabad
+2025-10-01 15:32:01 | INFO | Displayed daily trend for NO2
+2025-10-01 15:32:03 | INFO | Displayed weekly trend for NO2
+2025-10-01 15:32:07 | INFO | Displayed monthly trend for NO2
+2025-10-01 15:32:08 | INFO | Displayed overall AQI daily trend
+2025-10-01 15:32:14 | INFO | BEGIN (implicit)
+2025-10-01 15:32:14 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-01 15:32:14 | INFO | [cached since 1199s ago] {}
+2025-10-01 15:32:15 | INFO | ROLLBACK
+2025-10-01 15:32:15 | INFO | Fetched 14 forecast rows
+2025-10-01 15:32:15 | INFO | BEGIN (implicit)
+2025-10-01 15:32:15 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-01 15:32:15 | INFO | [cached since 1199s ago] {}
+2025-10-01 15:32:17 | INFO | ROLLBACK
+2025-10-01 15:32:17 | INFO | Fetched 2933 alerts
+2025-10-01 15:32:22 | INFO | BEGIN (implicit)
+2025-10-01 15:32:22 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-01 15:32:22 | INFO | [cached since 1207s ago] {}
+2025-10-01 15:32:22 | INFO | ROLLBACK
+2025-10-01 15:32:23 | INFO | Fetched 14 forecast rows
+2025-10-01 15:32:24 | INFO | BEGIN (implicit)
+2025-10-01 15:32:24 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-01 15:32:24 | INFO | [cached since 1209s ago] {}
+2025-10-01 15:32:24 | INFO | ROLLBACK
+2025-10-01 15:32:24 | INFO | Fetched 2933 alerts
+2025-10-01 15:32:27 | INFO | BEGIN (implicit)
+2025-10-01 15:32:27 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-01 15:32:27 | INFO | [cached since 1212s ago] {}
+2025-10-01 15:32:27 | INFO | BEGIN (implicit)
+2025-10-01 15:32:27 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-01 15:32:27 | INFO | [cached since 1212s ago] {}
+2025-10-01 15:32:27 | INFO | ROLLBACK
+2025-10-01 15:32:27 | INFO | Fetched 14 forecast rows
+2025-10-01 15:32:27 | INFO | BEGIN (implicit)
+2025-10-01 15:32:27 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-01 15:32:27 | INFO | [cached since 1212s ago] {}
+2025-10-01 15:32:27 | INFO | ROLLBACK
+2025-10-01 15:32:27 | INFO | Fetched 14 forecast rows
+2025-10-01 15:32:27 | INFO | BEGIN (implicit)
+2025-10-01 15:32:27 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-01 15:32:27 | INFO | [cached since 1212s ago] {}
+2025-10-01 15:32:27 | INFO | ROLLBACK
+2025-10-01 15:32:27 | INFO | Fetched 2933 alerts
+2025-10-01 15:32:27 | INFO | ROLLBACK
+2025-10-01 15:32:27 | INFO | Fetched 2933 alerts
+2025-10-01 15:32:31 | INFO | Displayed daily trend for NO2
+2025-10-01 15:32:32 | INFO | Displayed weekly trend for NO2
+2025-10-01 15:32:33 | INFO | Displayed monthly trend for NO2
+2025-10-01 15:32:35 | INFO | Displayed overall AQI daily trend
+2025-10-01 15:32:47 | INFO | BEGIN (implicit)
+2025-10-01 15:32:47 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-01 15:32:47 | INFO | [cached since 1232s ago] {}
+2025-10-01 15:32:48 | INFO | ROLLBACK
+2025-10-01 15:32:48 | INFO | Fetched 14 forecast rows
+2025-10-01 15:32:48 | INFO | BEGIN (implicit)
+2025-10-01 15:32:48 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-01 15:32:48 | INFO | [cached since 1232s ago] {}
+2025-10-01 15:32:48 | INFO | ROLLBACK
+2025-10-01 15:32:48 | INFO | Fetched 2933 alerts
+2025-10-01 15:32:53 | INFO | Displayed daily trend for NO2
+2025-10-01 15:32:55 | INFO | Displayed weekly trend for NO2
+2025-10-01 15:32:59 | INFO | Displayed monthly trend for NO2
+2025-10-01 15:33:00 | INFO | Displayed overall AQI daily trend
+2025-10-01 15:33:14 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-01 15:33:16 | INFO | Displayed monthly AQI trends per pollutant
+2025-10-02 11:03:50 | INFO | Loaded historical data: C:\Users\parka\OneDrive\Attachments\Documents\air-quality-forecast\dashboard\..\data\processed\air_quality_cleaned.csv (29531 rows)
+2025-10-02 11:03:51 | INFO | SELECT DATABASE()
+2025-10-02 11:03:51 | INFO | [raw sql] {}
+2025-10-02 11:03:51 | INFO | SELECT @@sql_mode
+2025-10-02 11:03:51 | INFO | [raw sql] {}
+2025-10-02 11:03:51 | INFO | SELECT @@lower_case_table_names
+2025-10-02 11:03:51 | INFO | [raw sql] {}
+2025-10-02 11:03:51 | INFO | BEGIN (implicit)
+2025-10-02 11:03:51 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:03:51 | INFO | [generated in 0.00407s] {}
+2025-10-02 11:03:51 | INFO | ROLLBACK
+2025-10-02 11:03:51 | INFO | Fetched 14 forecast rows
+2025-10-02 11:03:51 | INFO | BEGIN (implicit)
+2025-10-02 11:03:51 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:03:51 | INFO | [generated in 0.00349s] {}
+2025-10-02 11:03:51 | INFO | ROLLBACK
+2025-10-02 11:03:51 | INFO | Fetched 2933 alerts
+2025-10-02 11:03:55 | INFO | Displayed daily trend for PM2.5
+2025-10-02 11:03:56 | INFO | Displayed weekly trend for PM2.5
+2025-10-02 11:03:57 | INFO | Displayed monthly trend for PM2.5
+2025-10-02 11:03:57 | INFO | Displayed overall AQI daily trend
+2025-10-02 11:04:55 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-02 11:04:55 | INFO | Displayed daily (last 30 days) AQI trends per pollutant
+2025-10-02 11:05:04 | WARNING | From C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-10-02 11:06:34 | INFO | BEGIN (implicit)
+2025-10-02 11:06:34 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:06:34 | INFO | [cached since 162.7s ago] {}
+2025-10-02 11:06:34 | INFO | ROLLBACK
+2025-10-02 11:06:34 | INFO | Fetched 14 forecast rows
+2025-10-02 11:06:34 | INFO | BEGIN (implicit)
+2025-10-02 11:06:34 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:06:34 | INFO | [cached since 162.7s ago] {}
+2025-10-02 11:06:34 | INFO | ROLLBACK
+2025-10-02 11:06:34 | INFO | Fetched 2933 alerts
+2025-10-02 11:06:46 | INFO | Displayed daily trend for PM2.5
+2025-10-02 11:06:47 | INFO | Displayed weekly trend for PM2.5
+2025-10-02 11:06:47 | INFO | Displayed monthly trend for PM2.5
+2025-10-02 11:06:48 | INFO | Displayed overall AQI daily trend
+2025-10-02 11:08:03 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-02 11:08:05 | INFO | Displayed daily (last 30 days) AQI trends per pollutant
+2025-10-02 11:09:48 | INFO | BEGIN (implicit)
+2025-10-02 11:09:48 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:09:48 | INFO | [cached since 356.6s ago] {}
+2025-10-02 11:09:48 | INFO | ROLLBACK
+2025-10-02 11:09:48 | INFO | Fetched 14 forecast rows
+2025-10-02 11:09:48 | INFO | BEGIN (implicit)
+2025-10-02 11:09:48 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:09:48 | INFO | [cached since 356.5s ago] {}
+2025-10-02 11:09:48 | INFO | ROLLBACK
+2025-10-02 11:09:48 | INFO | Fetched 2933 alerts
+2025-10-02 11:09:57 | INFO | Displayed daily trend for PM2.5
+2025-10-02 11:09:57 | INFO | Displayed weekly trend for PM2.5
+2025-10-02 11:09:58 | INFO | Displayed monthly trend for PM2.5
+2025-10-02 11:09:58 | INFO | Displayed overall AQI daily trend
+2025-10-02 11:10:11 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-02 11:10:12 | INFO | Displayed daily (last 30 days) AQI trends per pollutant
+2025-10-02 11:10:53 | INFO | BEGIN (implicit)
+2025-10-02 11:10:53 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:10:53 | INFO | [cached since 421.7s ago] {}
+2025-10-02 11:10:53 | INFO | ROLLBACK
+2025-10-02 11:10:53 | INFO | Fetched 14 forecast rows
+2025-10-02 11:10:53 | INFO | BEGIN (implicit)
+2025-10-02 11:10:53 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:10:53 | INFO | [cached since 421.6s ago] {}
+2025-10-02 11:10:53 | INFO | ROLLBACK
+2025-10-02 11:10:53 | INFO | Fetched 2933 alerts
+2025-10-02 11:10:59 | INFO | Displayed daily trend for PM2.5
+2025-10-02 11:11:01 | INFO | Displayed weekly trend for PM2.5
+2025-10-02 11:11:03 | INFO | Displayed monthly trend for PM2.5
+2025-10-02 11:11:03 | INFO | Displayed overall AQI daily trend
+2025-10-02 11:11:41 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-02 11:11:43 | INFO | Displayed daily (last 30 days) AQI trends per pollutant
+2025-10-02 11:13:06 | INFO | BEGIN (implicit)
+2025-10-02 11:13:06 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:13:06 | INFO | [cached since 555.1s ago] {}
+2025-10-02 11:13:06 | INFO | ROLLBACK
+2025-10-02 11:13:06 | INFO | Fetched 14 forecast rows
+2025-10-02 11:13:06 | INFO | BEGIN (implicit)
+2025-10-02 11:13:06 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:13:06 | INFO | [cached since 555.1s ago] {}
+2025-10-02 11:13:06 | INFO | ROLLBACK
+2025-10-02 11:13:06 | INFO | Fetched 2933 alerts
+2025-10-02 11:13:15 | INFO | Displayed daily trend for PM2.5
+2025-10-02 11:13:16 | INFO | Displayed weekly trend for PM2.5
+2025-10-02 11:13:17 | INFO | Displayed monthly trend for PM2.5
+2025-10-02 11:13:18 | INFO | Displayed overall AQI daily trend
+2025-10-02 11:13:31 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-02 11:13:33 | INFO | Displayed weekly AQI trends per pollutant
+2025-10-02 11:14:48 | INFO | BEGIN (implicit)
+2025-10-02 11:14:48 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:14:48 | INFO | [cached since 657.3s ago] {}
+2025-10-02 11:14:48 | INFO | ROLLBACK
+2025-10-02 11:14:48 | INFO | Fetched 14 forecast rows
+2025-10-02 11:14:48 | INFO | BEGIN (implicit)
+2025-10-02 11:14:48 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:14:48 | INFO | [cached since 657.3s ago] {}
+2025-10-02 11:14:48 | INFO | ROLLBACK
+2025-10-02 11:14:48 | INFO | Fetched 2933 alerts
+2025-10-02 11:14:56 | INFO | Displayed daily trend for PM2.5
+2025-10-02 11:14:57 | INFO | Displayed weekly trend for PM2.5
+2025-10-02 11:14:58 | INFO | Displayed monthly trend for PM2.5
+2025-10-02 11:14:58 | INFO | Displayed overall AQI daily trend
+2025-10-02 11:15:07 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-02 11:15:08 | INFO | Displayed weekly AQI trends per pollutant
+2025-10-02 11:15:53 | INFO | BEGIN (implicit)
+2025-10-02 11:15:53 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:15:53 | INFO | [cached since 721.8s ago] {}
+2025-10-02 11:15:53 | INFO | ROLLBACK
+2025-10-02 11:15:53 | INFO | Fetched 14 forecast rows
+2025-10-02 11:15:53 | INFO | BEGIN (implicit)
+2025-10-02 11:15:53 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:15:53 | INFO | [cached since 721.7s ago] {}
+2025-10-02 11:15:53 | INFO | ROLLBACK
+2025-10-02 11:15:53 | INFO | Fetched 2933 alerts
+2025-10-02 11:16:01 | INFO | Displayed daily trend for PM2.5
+2025-10-02 11:16:02 | INFO | Displayed weekly trend for PM2.5
+2025-10-02 11:16:03 | INFO | Displayed monthly trend for PM2.5
+2025-10-02 11:16:04 | INFO | Displayed overall AQI daily trend
+2025-10-02 11:16:13 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-02 11:16:15 | INFO | Displayed weekly AQI trends per pollutant
+2025-10-02 11:16:34 | INFO | BEGIN (implicit)
+2025-10-02 11:16:34 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:16:34 | INFO | [cached since 763.5s ago] {}
+2025-10-02 11:16:35 | INFO | ROLLBACK
+2025-10-02 11:16:35 | INFO | Fetched 14 forecast rows
+2025-10-02 11:16:35 | INFO | BEGIN (implicit)
+2025-10-02 11:16:35 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:16:35 | INFO | [cached since 763.6s ago] {}
+2025-10-02 11:16:35 | INFO | ROLLBACK
+2025-10-02 11:16:35 | INFO | Fetched 2933 alerts
+2025-10-02 11:16:45 | INFO | Displayed daily trend for PM2.5
+2025-10-02 11:16:45 | INFO | Displayed weekly trend for PM2.5
+2025-10-02 11:16:46 | INFO | Displayed monthly trend for PM2.5
+2025-10-02 11:16:46 | INFO | Displayed overall AQI daily trend
+2025-10-02 11:16:58 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-02 11:17:00 | INFO | Displayed weekly AQI trends per pollutant
+2025-10-02 11:17:14 | INFO | BEGIN (implicit)
+2025-10-02 11:17:14 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:17:14 | INFO | [cached since 803.1s ago] {}
+2025-10-02 11:17:14 | INFO | ROLLBACK
+2025-10-02 11:17:14 | INFO | Fetched 14 forecast rows
+2025-10-02 11:17:14 | INFO | BEGIN (implicit)
+2025-10-02 11:17:14 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:17:14 | INFO | [cached since 803.1s ago] {}
+2025-10-02 11:17:14 | INFO | ROLLBACK
+2025-10-02 11:17:14 | INFO | Fetched 2933 alerts
+2025-10-02 11:17:23 | INFO | Displayed daily trend for PM2.5
+2025-10-02 11:17:23 | INFO | Displayed weekly trend for PM2.5
+2025-10-02 11:17:24 | INFO | Displayed monthly trend for PM2.5
+2025-10-02 11:17:24 | INFO | Displayed overall AQI daily trend
+2025-10-02 11:17:36 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-02 11:17:37 | INFO | Displayed weekly AQI trends per pollutant
+2025-10-02 11:17:57 | INFO | BEGIN (implicit)
+2025-10-02 11:17:57 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:17:57 | INFO | [cached since 845.8s ago] {}
+2025-10-02 11:17:57 | INFO | ROLLBACK
+2025-10-02 11:17:57 | INFO | Fetched 14 forecast rows
+2025-10-02 11:17:57 | INFO | BEGIN (implicit)
+2025-10-02 11:17:57 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:17:57 | INFO | [cached since 846s ago] {}
+2025-10-02 11:17:57 | INFO | ROLLBACK
+2025-10-02 11:17:57 | INFO | Fetched 2933 alerts
+2025-10-02 11:18:04 | INFO | Displayed daily trend for PM2.5
+2025-10-02 11:18:05 | INFO | Displayed weekly trend for PM2.5
+2025-10-02 11:18:06 | INFO | Displayed monthly trend for PM2.5
+2025-10-02 11:18:06 | INFO | Displayed overall AQI daily trend
+2025-10-02 11:18:16 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-02 11:18:18 | INFO | Displayed weekly AQI trends per pollutant
+2025-10-02 11:18:29 | INFO | BEGIN (implicit)
+2025-10-02 11:18:29 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:18:29 | INFO | [cached since 877.9s ago] {}
+2025-10-02 11:18:29 | INFO | ROLLBACK
+2025-10-02 11:18:29 | INFO | Fetched 14 forecast rows
+2025-10-02 11:18:29 | INFO | BEGIN (implicit)
+2025-10-02 11:18:29 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:18:29 | INFO | [cached since 877.9s ago] {}
+2025-10-02 11:18:29 | INFO | ROLLBACK
+2025-10-02 11:18:29 | INFO | Fetched 2933 alerts
+2025-10-02 11:18:37 | INFO | Displayed daily trend for PM2.5
+2025-10-02 11:18:37 | INFO | Displayed weekly trend for PM2.5
+2025-10-02 11:18:38 | INFO | Displayed monthly trend for PM2.5
+2025-10-02 11:18:38 | INFO | Displayed overall AQI daily trend
+2025-10-02 11:18:47 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-02 11:18:48 | INFO | Displayed weekly AQI trends per pollutant
+2025-10-02 11:19:19 | INFO | BEGIN (implicit)
+2025-10-02 11:19:19 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:19:19 | INFO | [cached since 928s ago] {}
+2025-10-02 11:19:19 | INFO | ROLLBACK
+2025-10-02 11:19:19 | INFO | Fetched 14 forecast rows
+2025-10-02 11:19:19 | INFO | BEGIN (implicit)
+2025-10-02 11:19:19 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:19:19 | INFO | [cached since 928s ago] {}
+2025-10-02 11:19:19 | INFO | ROLLBACK
+2025-10-02 11:19:19 | INFO | Fetched 2933 alerts
+2025-10-02 11:19:28 | INFO | Displayed daily trend for PM2.5
+2025-10-02 11:19:29 | INFO | Displayed weekly trend for PM2.5
+2025-10-02 11:19:29 | INFO | Displayed monthly trend for PM2.5
+2025-10-02 11:19:30 | INFO | Displayed overall AQI daily trend
+2025-10-02 11:19:41 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-02 11:19:43 | INFO | Displayed weekly AQI trends per pollutant
+2025-10-02 11:19:45 | INFO | Generated 10-day FUTURE forecast for NO2
+2025-10-02 11:20:27 | INFO | BEGIN (implicit)
+2025-10-02 11:20:27 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:20:27 | INFO | [cached since 996.3s ago] {}
+2025-10-02 11:20:27 | INFO | ROLLBACK
+2025-10-02 11:20:27 | INFO | Fetched 14 forecast rows
+2025-10-02 11:20:27 | INFO | BEGIN (implicit)
+2025-10-02 11:20:27 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:20:27 | INFO | [cached since 996.2s ago] {}
+2025-10-02 11:20:27 | INFO | ROLLBACK
+2025-10-02 11:20:27 | INFO | Fetched 2933 alerts
+2025-10-02 11:20:36 | INFO | Displayed daily trend for PM2.5
+2025-10-02 11:20:37 | INFO | Displayed weekly trend for PM2.5
+2025-10-02 11:20:37 | INFO | Displayed monthly trend for PM2.5
+2025-10-02 11:20:38 | INFO | Displayed overall AQI daily trend
+2025-10-02 11:20:52 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-02 11:20:53 | INFO | Displayed weekly AQI trends per pollutant
+2025-10-02 11:21:18 | INFO | BEGIN (implicit)
+2025-10-02 11:21:18 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:21:18 | INFO | [cached since 1047s ago] {}
+2025-10-02 11:21:18 | INFO | ROLLBACK
+2025-10-02 11:21:18 | INFO | Fetched 14 forecast rows
+2025-10-02 11:21:18 | INFO | BEGIN (implicit)
+2025-10-02 11:21:18 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:21:18 | INFO | [cached since 1047s ago] {}
+2025-10-02 11:21:18 | INFO | ROLLBACK
+2025-10-02 11:21:18 | INFO | Fetched 2933 alerts
+2025-10-02 11:21:25 | INFO | Displayed daily trend for PM2.5
+2025-10-02 11:21:26 | INFO | Displayed weekly trend for PM2.5
+2025-10-02 11:21:26 | INFO | Displayed monthly trend for PM2.5
+2025-10-02 11:21:27 | INFO | Displayed overall AQI daily trend
+2025-10-02 11:21:43 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-02 11:21:44 | INFO | Displayed weekly AQI trends per pollutant
+2025-10-02 11:21:48 | INFO | Generated 10-day FUTURE forecast for O3
+2025-10-02 11:22:30 | INFO | BEGIN (implicit)
+2025-10-02 11:22:30 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:22:30 | INFO | [cached since 1119s ago] {}
+2025-10-02 11:22:30 | INFO | ROLLBACK
+2025-10-02 11:22:30 | INFO | Fetched 14 forecast rows
+2025-10-02 11:22:30 | INFO | BEGIN (implicit)
+2025-10-02 11:22:30 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:22:30 | INFO | [cached since 1119s ago] {}
+2025-10-02 11:22:31 | INFO | ROLLBACK
+2025-10-02 11:22:31 | INFO | Fetched 2933 alerts
+2025-10-02 11:22:33 | INFO | BEGIN (implicit)
+2025-10-02 11:22:33 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:22:33 | INFO | [cached since 1122s ago] {}
+2025-10-02 11:22:33 | INFO | ROLLBACK
+2025-10-02 11:22:33 | INFO | Fetched 14 forecast rows
+2025-10-02 11:22:33 | INFO | BEGIN (implicit)
+2025-10-02 11:22:33 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:22:33 | INFO | [cached since 1122s ago] {}
+2025-10-02 11:22:35 | INFO | ROLLBACK
+2025-10-02 11:22:35 | INFO | Fetched 2933 alerts
+2025-10-02 11:22:38 | INFO | BEGIN (implicit)
+2025-10-02 11:22:38 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:22:38 | INFO | [cached since 1127s ago] {}
+2025-10-02 11:22:39 | INFO | ROLLBACK
+2025-10-02 11:22:40 | INFO | Fetched 14 forecast rows
+2025-10-02 11:22:40 | INFO | BEGIN (implicit)
+2025-10-02 11:22:40 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:22:40 | INFO | [cached since 1129s ago] {}
+2025-10-02 11:22:51 | INFO | ROLLBACK
+2025-10-02 11:22:51 | INFO | Fetched 2933 alerts
+2025-10-02 11:22:56 | INFO | Displayed daily trend for PM2.5
+2025-10-02 11:22:56 | INFO | Displayed weekly trend for PM2.5
+2025-10-02 11:22:57 | INFO | Displayed monthly trend for PM2.5
+2025-10-02 11:22:58 | INFO | Displayed overall AQI daily trend
+2025-10-02 11:23:12 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-02 11:23:14 | INFO | Displayed weekly AQI trends per pollutant
+2025-10-02 11:23:57 | INFO | BEGIN (implicit)
+2025-10-02 11:23:57 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:23:57 | INFO | [cached since 1206s ago] {}
+2025-10-02 11:23:57 | INFO | ROLLBACK
+2025-10-02 11:23:57 | INFO | Fetched 14 forecast rows
+2025-10-02 11:23:57 | INFO | BEGIN (implicit)
+2025-10-02 11:23:57 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:23:57 | INFO | [cached since 1206s ago] {}
+2025-10-02 11:23:57 | INFO | ROLLBACK
+2025-10-02 11:23:57 | INFO | Fetched 2933 alerts
+2025-10-02 11:24:00 | INFO | Displayed daily trend for PM2.5
+2025-10-02 11:24:02 | INFO | Displayed weekly trend for PM2.5
+2025-10-02 11:24:05 | INFO | Displayed monthly trend for PM2.5
+2025-10-02 11:24:07 | INFO | Displayed overall AQI daily trend
+2025-10-02 11:24:22 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-02 11:24:25 | INFO | Displayed weekly AQI trends per pollutant
+2025-10-02 11:25:05 | INFO | BEGIN (implicit)
+2025-10-02 11:25:05 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:25:05 | INFO | [cached since 1274s ago] {}
+2025-10-02 11:25:05 | INFO | ROLLBACK
+2025-10-02 11:25:05 | INFO | Fetched 14 forecast rows
+2025-10-02 11:25:05 | INFO | BEGIN (implicit)
+2025-10-02 11:25:05 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:25:05 | INFO | [cached since 1274s ago] {}
+2025-10-02 11:25:05 | INFO | ROLLBACK
+2025-10-02 11:25:05 | INFO | Fetched 2933 alerts
+2025-10-02 11:25:08 | INFO | Displayed daily trend for CO
+2025-10-02 11:25:09 | INFO | Displayed weekly trend for CO
+2025-10-02 11:25:11 | INFO | Displayed monthly trend for CO
+2025-10-02 11:25:12 | INFO | Displayed overall AQI daily trend
+2025-10-02 11:25:25 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-02 11:25:29 | INFO | Displayed weekly AQI trends per pollutant
+2025-10-02 11:25:59 | INFO | BEGIN (implicit)
+2025-10-02 11:25:59 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:25:59 | INFO | [cached since 1328s ago] {}
+2025-10-02 11:25:59 | INFO | ROLLBACK
+2025-10-02 11:25:59 | INFO | Fetched 14 forecast rows
+2025-10-02 11:25:59 | INFO | BEGIN (implicit)
+2025-10-02 11:25:59 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:25:59 | INFO | [cached since 1328s ago] {}
+2025-10-02 11:25:59 | INFO | ROLLBACK
+2025-10-02 11:25:59 | INFO | Fetched 2933 alerts
+2025-10-02 11:26:01 | INFO | Displayed daily trend for PM10
+2025-10-02 11:26:02 | INFO | Displayed weekly trend for PM10
+2025-10-02 11:26:03 | INFO | Displayed monthly trend for PM10
+2025-10-02 11:26:04 | INFO | Displayed overall AQI daily trend
+2025-10-02 11:26:10 | INFO | BEGIN (implicit)
+2025-10-02 11:26:12 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:26:13 | INFO | [cached since 1342s ago] {}
+2025-10-02 11:26:13 | INFO | ROLLBACK
+2025-10-02 11:26:13 | INFO | Fetched 14 forecast rows
+2025-10-02 11:26:13 | INFO | BEGIN (implicit)
+2025-10-02 11:26:13 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:26:13 | INFO | [cached since 1342s ago] {}
+2025-10-02 11:26:13 | INFO | ROLLBACK
+2025-10-02 11:26:13 | INFO | Fetched 2933 alerts
+2025-10-02 11:26:15 | INFO | BEGIN (implicit)
+2025-10-02 11:26:15 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:26:15 | INFO | [cached since 1344s ago] {}
+2025-10-02 11:26:15 | INFO | ROLLBACK
+2025-10-02 11:26:15 | INFO | Fetched 14 forecast rows
+2025-10-02 11:26:15 | INFO | BEGIN (implicit)
+2025-10-02 11:26:15 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:26:15 | INFO | [cached since 1344s ago] {}
+2025-10-02 11:26:15 | INFO | ROLLBACK
+2025-10-02 11:26:15 | INFO | Fetched 2933 alerts
+2025-10-02 11:26:15 | WARNING | Filtered DataFrame empty — cannot display trends
+2025-10-02 11:26:20 | WARNING | Filtered DataFrame empty — cannot display per-pollutant analysis
+2025-10-02 11:26:23 | INFO | BEGIN (implicit)
+2025-10-02 11:26:23 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:26:23 | INFO | [cached since 1352s ago] {}
+2025-10-02 11:26:23 | INFO | ROLLBACK
+2025-10-02 11:26:23 | INFO | Fetched 14 forecast rows
+2025-10-02 11:26:23 | INFO | BEGIN (implicit)
+2025-10-02 11:26:23 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:26:23 | INFO | [cached since 1352s ago] {}
+2025-10-02 11:26:23 | INFO | ROLLBACK
+2025-10-02 11:26:23 | INFO | Fetched 2933 alerts
+2025-10-02 11:26:23 | WARNING | Filtered DataFrame empty — cannot display trends
+2025-10-02 11:26:34 | WARNING | Filtered DataFrame empty — cannot display per-pollutant analysis
+2025-10-02 11:26:47 | INFO | BEGIN (implicit)
+2025-10-02 11:26:47 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:26:47 | INFO | [cached since 1376s ago] {}
+2025-10-02 11:26:47 | INFO | ROLLBACK
+2025-10-02 11:26:47 | INFO | Fetched 14 forecast rows
+2025-10-02 11:26:47 | INFO | BEGIN (implicit)
+2025-10-02 11:26:47 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:26:47 | INFO | [cached since 1376s ago] {}
+2025-10-02 11:26:47 | INFO | ROLLBACK
+2025-10-02 11:26:47 | INFO | Fetched 2933 alerts
+2025-10-02 11:26:47 | WARNING | Filtered DataFrame empty — cannot display trends
+2025-10-02 11:26:53 | WARNING | Filtered DataFrame empty — cannot display per-pollutant analysis
+2025-10-02 11:27:06 | INFO | BEGIN (implicit)
+2025-10-02 11:27:06 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:27:06 | INFO | [cached since 1395s ago] {}
+2025-10-02 11:27:06 | INFO | ROLLBACK
+2025-10-02 11:27:06 | INFO | Fetched 14 forecast rows
+2025-10-02 11:27:06 | INFO | BEGIN (implicit)
+2025-10-02 11:27:06 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:27:06 | INFO | [cached since 1395s ago] {}
+2025-10-02 11:27:06 | INFO | ROLLBACK
+2025-10-02 11:27:06 | INFO | Fetched 2933 alerts
+2025-10-02 11:27:23 | INFO | BEGIN (implicit)
+2025-10-02 11:27:23 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:27:23 | INFO | [cached since 1412s ago] {}
+2025-10-02 11:27:23 | INFO | ROLLBACK
+2025-10-02 11:27:23 | INFO | Fetched 14 forecast rows
+2025-10-02 11:27:23 | INFO | BEGIN (implicit)
+2025-10-02 11:27:23 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:27:23 | INFO | [cached since 1412s ago] {}
+2025-10-02 11:27:23 | INFO | ROLLBACK
+2025-10-02 11:27:23 | INFO | Fetched 2933 alerts
+2025-10-02 11:27:26 | INFO | Displayed daily trend for PM2.5
+2025-10-02 11:27:27 | INFO | Displayed weekly trend for PM2.5
+2025-10-02 11:27:28 | INFO | BEGIN (implicit)
+2025-10-02 11:27:28 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:27:28 | INFO | [cached since 1417s ago] {}
+2025-10-02 11:27:28 | INFO | ROLLBACK
+2025-10-02 11:27:28 | INFO | Fetched 14 forecast rows
+2025-10-02 11:27:28 | INFO | BEGIN (implicit)
+2025-10-02 11:27:28 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:27:28 | INFO | [cached since 1417s ago] {}
+2025-10-02 11:27:28 | INFO | ROLLBACK
+2025-10-02 11:27:28 | INFO | Fetched 2933 alerts
+2025-10-02 11:27:32 | INFO | Displayed daily trend for PM2.5
+2025-10-02 11:27:32 | INFO | Displayed weekly trend for PM2.5
+2025-10-02 11:27:33 | INFO | Displayed monthly trend for PM2.5
+2025-10-02 11:27:34 | INFO | Displayed overall AQI daily trend
+2025-10-02 11:28:19 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-02 11:28:20 | INFO | Displayed daily (last 30 days) AQI trends per pollutant
+2025-10-02 11:29:00 | INFO | BEGIN (implicit)
+2025-10-02 11:29:00 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:29:00 | INFO | [cached since 1509s ago] {}
+2025-10-02 11:29:00 | INFO | ROLLBACK
+2025-10-02 11:29:00 | INFO | Fetched 14 forecast rows
+2025-10-02 11:29:00 | INFO | BEGIN (implicit)
+2025-10-02 11:29:00 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:29:00 | INFO | [cached since 1509s ago] {}
+2025-10-02 11:29:01 | INFO | ROLLBACK
+2025-10-02 11:29:01 | INFO | Fetched 2933 alerts
+2025-10-02 11:29:01 | INFO | BEGIN (implicit)
+2025-10-02 11:29:04 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:29:04 | INFO | [cached since 1513s ago] {}
+2025-10-02 11:29:04 | INFO | ROLLBACK
+2025-10-02 11:29:04 | INFO | Fetched 14 forecast rows
+2025-10-02 11:29:04 | INFO | BEGIN (implicit)
+2025-10-02 11:29:04 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:29:04 | INFO | [cached since 1513s ago] {}
+2025-10-02 11:29:04 | INFO | ROLLBACK
+2025-10-02 11:29:04 | INFO | Fetched 2933 alerts
+2025-10-02 11:29:09 | INFO | Displayed daily trend for PM2.5
+2025-10-02 11:29:11 | INFO | Displayed weekly trend for PM2.5
+2025-10-02 11:29:14 | INFO | Displayed monthly trend for PM2.5
+2025-10-02 11:29:16 | INFO | Displayed overall AQI daily trend
+2025-10-02 11:29:22 | INFO | BEGIN (implicit)
+2025-10-02 11:29:22 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:29:22 | INFO | [cached since 1531s ago] {}
+2025-10-02 11:29:22 | INFO | ROLLBACK
+2025-10-02 11:29:22 | INFO | Fetched 14 forecast rows
+2025-10-02 11:29:22 | INFO | BEGIN (implicit)
+2025-10-02 11:29:22 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:29:22 | INFO | [cached since 1531s ago] {}
+2025-10-02 11:29:26 | INFO | ROLLBACK
+2025-10-02 11:29:26 | INFO | Fetched 2933 alerts
+2025-10-02 11:29:26 | INFO | BEGIN (implicit)
+2025-10-02 11:29:26 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:29:26 | INFO | [cached since 1536s ago] {}
+2025-10-02 11:29:27 | INFO | ROLLBACK
+2025-10-02 11:29:27 | INFO | Fetched 14 forecast rows
+2025-10-02 11:29:27 | INFO | BEGIN (implicit)
+2025-10-02 11:29:27 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:29:27 | INFO | [cached since 1536s ago] {}
+2025-10-02 11:29:33 | INFO | ROLLBACK
+2025-10-02 11:29:34 | INFO | Fetched 2933 alerts
+2025-10-02 11:29:38 | ERROR | Error uploading CSV: Cannot save file into a non-existent directory: 'path\to'
+2025-10-02 11:29:38 | INFO | Starting retraining of all models...
+2025-10-02 11:29:38 | ERROR | Historical CSV not found: path\to\historical.csv
+2025-10-02 11:29:49 | INFO | BEGIN (implicit)
+2025-10-02 11:29:49 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:29:49 | INFO | [cached since 1558s ago] {}
+2025-10-02 11:29:49 | INFO | ROLLBACK
+2025-10-02 11:29:49 | INFO | Fetched 14 forecast rows
+2025-10-02 11:29:49 | INFO | BEGIN (implicit)
+2025-10-02 11:29:49 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:29:49 | INFO | [cached since 1558s ago] {}
+2025-10-02 11:29:50 | INFO | ROLLBACK
+2025-10-02 11:29:50 | INFO | Fetched 2933 alerts
+2025-10-02 11:29:51 | ERROR | Error uploading CSV: Cannot save file into a non-existent directory: 'path\to'
+2025-10-02 11:30:01 | INFO | BEGIN (implicit)
+2025-10-02 11:30:01 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:30:01 | INFO | [cached since 1570s ago] {}
+2025-10-02 11:30:02 | INFO | ROLLBACK
+2025-10-02 11:30:02 | INFO | Fetched 14 forecast rows
+2025-10-02 11:30:02 | INFO | BEGIN (implicit)
+2025-10-02 11:30:02 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:30:02 | INFO | [cached since 1571s ago] {}
+2025-10-02 11:30:03 | INFO | BEGIN (implicit)
+2025-10-02 11:30:03 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-02 11:30:03 | INFO | [cached since 1572s ago] {}
+2025-10-02 11:30:03 | INFO | ROLLBACK
+2025-10-02 11:30:03 | INFO | Fetched 14 forecast rows
+2025-10-02 11:30:03 | INFO | BEGIN (implicit)
+2025-10-02 11:30:03 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-02 11:30:03 | INFO | [cached since 1572s ago] {}
+2025-10-02 11:30:05 | INFO | ROLLBACK
+2025-10-02 11:30:05 | INFO | Fetched 2933 alerts
+2025-10-02 11:30:10 | INFO | ROLLBACK
+2025-10-02 11:30:10 | INFO | Fetched 2933 alerts
+2025-10-02 11:30:15 | INFO | Displayed daily trend for PM2.5
+2025-10-02 11:30:20 | INFO | Displayed weekly trend for PM2.5
+2025-10-02 11:31:04 | INFO | Displayed monthly trend for PM2.5
+2025-10-02 11:31:11 | INFO | Displayed overall AQI daily trend
+2025-10-02 11:32:25 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-02 11:32:26 | INFO | Displayed daily (last 30 days) AQI trends per pollutant
+2025-10-04 12:38:02 | WARNING | From C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-10-04 12:40:03 | INFO | Loaded historical data: C:\Users\parka\OneDrive\Attachments\Documents\air-quality-forecast\dashboard\..\data\processed\air_quality_cleaned.csv (29531 rows)
+2025-10-04 12:40:03 | INFO | SELECT DATABASE()
+2025-10-04 12:40:03 | INFO | [raw sql] {}
+2025-10-04 12:40:03 | INFO | SELECT @@sql_mode
+2025-10-04 12:40:03 | INFO | [raw sql] {}
+2025-10-04 12:40:03 | INFO | SELECT @@lower_case_table_names
+2025-10-04 12:40:03 | INFO | [raw sql] {}
+2025-10-04 12:40:03 | INFO | BEGIN (implicit)
+2025-10-04 12:40:03 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-04 12:40:03 | INFO | [generated in 0.00223s] {}
+2025-10-04 12:40:03 | INFO | ROLLBACK
+2025-10-04 12:40:03 | INFO | Fetched 14 forecast rows
+2025-10-04 12:40:03 | INFO | BEGIN (implicit)
+2025-10-04 12:40:03 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-04 12:40:03 | INFO | [generated in 0.00308s] {}
+2025-10-04 12:40:03 | INFO | ROLLBACK
+2025-10-04 12:40:03 | INFO | Fetched 2933 alerts
+2025-10-04 12:40:05 | INFO | Displayed daily trend for PM2.5
+2025-10-04 12:40:05 | INFO | Displayed weekly trend for PM2.5
+2025-10-04 12:40:06 | INFO | Displayed monthly trend for PM2.5
+2025-10-04 12:40:06 | INFO | Displayed overall AQI daily trend
+2025-10-04 12:40:14 | INFO | BEGIN (implicit)
+2025-10-04 12:40:14 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-04 12:40:14 | INFO | [cached since 10.41s ago] {}
+2025-10-04 12:40:14 | INFO | ROLLBACK
+2025-10-04 12:40:14 | INFO | Fetched 14 forecast rows
+2025-10-04 12:40:14 | INFO | BEGIN (implicit)
+2025-10-04 12:40:14 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-04 12:40:14 | INFO | [cached since 10.51s ago] {}
+2025-10-04 12:40:15 | INFO | ROLLBACK
+2025-10-04 12:40:15 | INFO | Fetched 2933 alerts
+2025-10-04 12:40:29 | INFO | Displayed daily trend for SO2
+2025-10-04 12:40:33 | INFO | Displayed weekly trend for SO2
+2025-10-04 12:40:34 | INFO | Displayed monthly trend for SO2
+2025-10-04 12:40:35 | INFO | Displayed overall AQI daily trend
+2025-10-04 12:42:36 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-04 12:42:36 | INFO | Displayed daily (last 30 days) AQI trends per pollutant
+2025-10-04 12:43:36 | INFO | BEGIN (implicit)
+2025-10-04 12:43:36 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-04 12:43:36 | INFO | [cached since 212.7s ago] {}
+2025-10-04 12:43:36 | INFO | ROLLBACK
+2025-10-04 12:43:36 | INFO | Fetched 14 forecast rows
+2025-10-04 12:43:36 | INFO | BEGIN (implicit)
+2025-10-04 12:43:36 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-04 12:43:36 | INFO | [cached since 212.8s ago] {}
+2025-10-04 12:43:36 | INFO | ROLLBACK
+2025-10-04 12:43:36 | INFO | Fetched 2933 alerts
+2025-10-04 12:43:37 | INFO | BEGIN (implicit)
+2025-10-04 12:43:37 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-04 12:43:37 | INFO | [cached since 213.8s ago] {}
+2025-10-04 12:43:37 | INFO | ROLLBACK
+2025-10-04 12:43:37 | INFO | Fetched 14 forecast rows
+2025-10-04 12:43:37 | INFO | BEGIN (implicit)
+2025-10-04 12:43:37 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-04 12:43:37 | INFO | [cached since 214s ago] {}
+2025-10-04 12:43:39 | INFO | ROLLBACK
+2025-10-04 12:43:39 | INFO | Fetched 2933 alerts
+2025-10-04 12:43:41 | INFO | Displayed daily trend for SO2
+2025-10-04 12:43:41 | INFO | Displayed weekly trend for SO2
+2025-10-04 12:43:41 | INFO | Displayed monthly trend for SO2
+2025-10-04 12:43:41 | INFO | Displayed overall AQI daily trend
+2025-10-04 12:44:11 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-04 12:44:11 | INFO | Displayed daily (last 30 days) AQI trends per pollutant
+2025-10-04 12:44:15 | INFO | Generated 7-day FUTURE forecast for PM10
+2025-10-04 12:51:15 | INFO | BEGIN (implicit)
+2025-10-04 12:51:15 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-04 12:51:15 | INFO | [cached since 671.9s ago] {}
+2025-10-04 12:51:16 | INFO | ROLLBACK
+2025-10-04 12:51:16 | INFO | Fetched 14 forecast rows
+2025-10-04 12:51:16 | INFO | BEGIN (implicit)
+2025-10-04 12:51:16 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-04 12:51:16 | INFO | [cached since 672.6s ago] {}
+2025-10-04 12:51:16 | INFO | ROLLBACK
+2025-10-04 12:51:16 | INFO | Fetched 2933 alerts
+2025-10-04 12:53:41 | INFO | BEGIN (implicit)
+2025-10-04 12:53:41 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-04 12:53:41 | INFO | [cached since 817.8s ago] {}
+2025-10-04 12:53:41 | INFO | ROLLBACK
+2025-10-04 12:53:41 | INFO | Fetched 14 forecast rows
+2025-10-04 12:53:41 | INFO | BEGIN (implicit)
+2025-10-04 12:53:41 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-04 12:53:41 | INFO | [cached since 818s ago] {}
+2025-10-04 12:53:42 | INFO | ROLLBACK
+2025-10-04 12:53:42 | INFO | Fetched 2933 alerts
+2025-10-04 12:54:49 | INFO | Loaded historical data: C:\Users\parka\OneDrive\Attachments\Documents\air-quality-forecast\dashboard\..\data\processed\air_quality_cleaned.csv (29531 rows)
+2025-10-04 12:54:49 | INFO | SELECT DATABASE()
+2025-10-04 12:54:49 | INFO | [raw sql] {}
+2025-10-04 12:54:49 | INFO | SELECT @@sql_mode
+2025-10-04 12:54:49 | INFO | [raw sql] {}
+2025-10-04 12:54:49 | INFO | SELECT @@lower_case_table_names
+2025-10-04 12:54:49 | INFO | [raw sql] {}
+2025-10-04 12:54:49 | INFO | BEGIN (implicit)
+2025-10-04 12:54:49 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-04 12:54:49 | INFO | [generated in 0.01378s] {}
+2025-10-04 12:54:49 | INFO | ROLLBACK
+2025-10-04 12:54:49 | INFO | Fetched 14 forecast rows
+2025-10-04 12:54:49 | INFO | BEGIN (implicit)
+2025-10-04 12:54:49 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-04 12:54:49 | INFO | [generated in 0.00703s] {}
+2025-10-04 12:54:49 | INFO | ROLLBACK
+2025-10-04 12:54:49 | INFO | Fetched 2933 alerts
+2025-10-04 12:54:55 | WARNING | From C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-10-04 12:58:18 | INFO | BEGIN (implicit)
+2025-10-04 12:58:18 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-04 12:58:18 | INFO | [cached since 208.6s ago] {}
+2025-10-04 12:58:18 | INFO | ROLLBACK
+2025-10-04 12:58:18 | INFO | Fetched 14 forecast rows
+2025-10-04 12:58:18 | INFO | BEGIN (implicit)
+2025-10-04 12:58:18 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-04 12:58:18 | INFO | [cached since 208.7s ago] {}
+2025-10-04 12:58:18 | INFO | ROLLBACK
+2025-10-04 12:58:18 | INFO | Fetched 2933 alerts
+2025-10-04 12:58:20 | INFO | Displayed daily trend for PM2.5
+2025-10-04 12:58:20 | INFO | Displayed weekly trend for PM2.5
+2025-10-04 12:58:21 | INFO | Displayed monthly trend for PM2.5
+2025-10-04 12:58:21 | INFO | Displayed overall AQI daily trend
+2025-10-04 12:59:14 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-04 12:59:15 | INFO | Displayed daily (last 30 days) AQI trends per pollutant
+2025-10-04 12:59:42 | INFO | BEGIN (implicit)
+2025-10-04 12:59:42 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-04 12:59:42 | INFO | [cached since 292.4s ago] {}
+2025-10-04 12:59:42 | INFO | ROLLBACK
+2025-10-04 12:59:42 | INFO | Fetched 14 forecast rows
+2025-10-04 12:59:42 | INFO | BEGIN (implicit)
+2025-10-04 12:59:42 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-04 12:59:42 | INFO | [cached since 292.4s ago] {}
+2025-10-04 12:59:42 | INFO | ROLLBACK
+2025-10-04 12:59:42 | INFO | Fetched 2933 alerts
+2025-10-04 12:59:46 | INFO | Displayed daily trend for PM10
+2025-10-04 12:59:47 | INFO | Displayed weekly trend for PM10
+2025-10-04 12:59:48 | INFO | Displayed monthly trend for PM10
+2025-10-04 12:59:49 | INFO | Displayed overall AQI daily trend
+2025-10-04 13:00:39 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-04 13:00:40 | INFO | Displayed daily (last 30 days) AQI trends per pollutant
+2025-10-04 13:01:36 | INFO | BEGIN (implicit)
+2025-10-04 13:01:36 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-04 13:01:36 | INFO | [cached since 406.8s ago] {}
+2025-10-04 13:01:36 | INFO | ROLLBACK
+2025-10-04 13:01:36 | INFO | Fetched 14 forecast rows
+2025-10-04 13:01:36 | INFO | BEGIN (implicit)
+2025-10-04 13:01:36 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-04 13:01:36 | INFO | [cached since 406.8s ago] {}
+2025-10-04 13:01:36 | INFO | ROLLBACK
+2025-10-04 13:01:36 | INFO | Fetched 2933 alerts
+2025-10-04 13:01:38 | INFO | Displayed daily trend for PM2.5
+2025-10-04 13:01:39 | INFO | Displayed weekly trend for PM2.5
+2025-10-04 13:01:39 | INFO | Displayed monthly trend for PM2.5
+2025-10-04 13:01:39 | INFO | Displayed overall AQI daily trend
+2025-10-04 13:02:32 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-04 13:02:33 | INFO | Displayed daily (last 30 days) AQI trends per pollutant
+2025-10-04 13:10:34 | INFO | BEGIN (implicit)
+2025-10-04 13:10:34 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-04 13:10:34 | INFO | [cached since 945.2s ago] {}
+2025-10-04 13:10:35 | INFO | ROLLBACK
+2025-10-04 13:10:35 | INFO | Fetched 14 forecast rows
+2025-10-04 13:10:35 | INFO | BEGIN (implicit)
+2025-10-04 13:10:35 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-04 13:10:35 | INFO | [cached since 945.6s ago] {}
+2025-10-04 13:10:35 | INFO | ROLLBACK
+2025-10-04 13:10:35 | INFO | Fetched 2933 alerts
+2025-10-04 13:10:44 | INFO | Displayed daily trend for PM2.5
+2025-10-04 13:10:45 | INFO | Displayed weekly trend for PM2.5
+2025-10-04 13:10:47 | INFO | Displayed monthly trend for PM2.5
+2025-10-04 13:10:48 | INFO | Displayed overall AQI daily trend
+2025-10-04 13:11:54 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-04 13:11:54 | INFO | Displayed daily (last 30 days) AQI trends per pollutant
+2025-10-04 13:20:38 | INFO | BEGIN (implicit)
+2025-10-04 13:20:38 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-04 13:20:38 | INFO | [cached since 1549s ago] {}
+2025-10-04 13:20:38 | INFO | ROLLBACK
+2025-10-04 13:20:38 | INFO | Fetched 14 forecast rows
+2025-10-04 13:20:38 | INFO | BEGIN (implicit)
+2025-10-04 13:20:38 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-04 13:20:38 | INFO | [cached since 1549s ago] {}
+2025-10-04 13:20:38 | INFO | ROLLBACK
+2025-10-04 13:20:38 | INFO | Fetched 2933 alerts
+2025-10-04 13:20:43 | INFO | Displayed daily trend for PM2.5
+2025-10-04 13:20:44 | INFO | Displayed weekly trend for PM2.5
+2025-10-04 13:20:46 | INFO | Displayed monthly trend for PM2.5
+2025-10-04 13:20:47 | INFO | Displayed overall AQI daily trend
+2025-10-04 13:21:10 | INFO | BEGIN (implicit)
+2025-10-04 13:21:10 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-04 13:21:10 | INFO | [cached since 1581s ago] {}
+2025-10-04 13:21:10 | INFO | ROLLBACK
+2025-10-04 13:21:10 | INFO | Fetched 14 forecast rows
+2025-10-04 13:21:10 | INFO | BEGIN (implicit)
+2025-10-04 13:21:10 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-04 13:21:10 | INFO | [cached since 1581s ago] {}
+2025-10-04 13:21:11 | INFO | ROLLBACK
+2025-10-04 13:21:11 | INFO | Fetched 2933 alerts
+2025-10-04 13:21:20 | INFO | Displayed daily trend for PM2.5
+2025-10-04 13:21:21 | INFO | Displayed weekly trend for PM2.5
+2025-10-04 13:21:22 | INFO | Displayed monthly trend for PM2.5
+2025-10-04 13:21:23 | INFO | Displayed overall AQI daily trend
+2025-10-04 13:22:16 | INFO | BEGIN (implicit)
+2025-10-04 13:22:16 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-04 13:22:16 | INFO | [cached since 1646s ago] {}
+2025-10-04 13:22:16 | INFO | ROLLBACK
+2025-10-04 13:22:16 | INFO | Fetched 14 forecast rows
+2025-10-04 13:22:16 | INFO | BEGIN (implicit)
+2025-10-04 13:22:16 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-04 13:22:16 | INFO | [cached since 1647s ago] {}
+2025-10-04 13:22:17 | INFO | ROLLBACK
+2025-10-04 13:22:17 | INFO | Fetched 2933 alerts
+2025-10-04 13:23:24 | INFO | Displayed daily trend for PM2.5
+2025-10-04 13:23:26 | INFO | Displayed weekly trend for PM2.5
+2025-10-04 13:23:27 | INFO | Displayed monthly trend for PM2.5
+2025-10-04 13:23:27 | INFO | Displayed overall AQI daily trend
+2025-10-04 13:24:11 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-04 13:24:12 | INFO | Displayed daily (last 30 days) AQI trends per pollutant
+2025-10-04 13:25:38 | INFO | BEGIN (implicit)
+2025-10-04 13:25:38 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-04 13:25:38 | INFO | [cached since 1849s ago] {}
+2025-10-04 13:25:38 | INFO | ROLLBACK
+2025-10-04 13:25:38 | INFO | Fetched 14 forecast rows
+2025-10-04 13:25:38 | INFO | BEGIN (implicit)
+2025-10-04 13:25:38 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-04 13:25:38 | INFO | [cached since 1849s ago] {}
+2025-10-04 13:25:38 | INFO | ROLLBACK
+2025-10-04 13:25:38 | INFO | Fetched 2933 alerts
+2025-10-04 13:25:44 | INFO | Displayed daily trend for PM2.5
+2025-10-04 13:25:44 | INFO | Displayed weekly trend for PM2.5
+2025-10-04 13:25:45 | INFO | Displayed monthly trend for PM2.5
+2025-10-04 13:25:45 | INFO | Displayed overall AQI daily trend
+2025-10-04 13:26:42 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-04 13:26:43 | INFO | Displayed daily (last 30 days) AQI trends per pollutant
+2025-10-04 13:27:39 | INFO | BEGIN (implicit)
+2025-10-04 13:27:39 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-04 13:27:39 | INFO | [cached since 1969s ago] {}
+2025-10-04 13:27:39 | INFO | ROLLBACK
+2025-10-04 13:27:39 | INFO | Fetched 14 forecast rows
+2025-10-04 13:27:39 | INFO | BEGIN (implicit)
+2025-10-04 13:27:39 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-04 13:27:39 | INFO | [cached since 1970s ago] {}
+2025-10-04 13:27:39 | INFO | ROLLBACK
+2025-10-04 13:27:39 | INFO | Fetched 2933 alerts
+2025-10-04 13:27:41 | INFO | Displayed daily trend for PM2.5
+2025-10-04 13:27:42 | INFO | Displayed weekly trend for PM2.5
+2025-10-04 13:27:44 | INFO | Displayed monthly trend for PM2.5
+2025-10-04 13:27:44 | INFO | Displayed overall AQI daily trend
+2025-10-04 13:29:35 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-04 13:29:37 | INFO | Displayed daily (last 30 days) AQI trends per pollutant
+2025-10-04 13:30:40 | INFO | BEGIN (implicit)
+2025-10-04 13:30:40 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-04 13:30:40 | INFO | [cached since 2150s ago] {}
+2025-10-04 13:30:40 | INFO | ROLLBACK
+2025-10-04 13:30:40 | INFO | Fetched 14 forecast rows
+2025-10-04 13:30:40 | INFO | BEGIN (implicit)
+2025-10-04 13:30:40 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-04 13:30:40 | INFO | [cached since 2150s ago] {}
+2025-10-04 13:30:40 | INFO | ROLLBACK
+2025-10-04 13:30:40 | INFO | Fetched 2933 alerts
+2025-10-04 13:30:42 | INFO | Displayed daily trend for PM2.5
+2025-10-04 13:30:43 | INFO | Displayed weekly trend for PM2.5
+2025-10-04 13:30:44 | INFO | Displayed monthly trend for PM2.5
+2025-10-04 13:30:45 | INFO | Displayed overall AQI daily trend
+2025-10-04 13:31:46 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-04 13:31:46 | INFO | Displayed daily (last 30 days) AQI trends per pollutant
+2025-10-04 13:35:52 | INFO | BEGIN (implicit)
+2025-10-04 13:35:52 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-04 13:35:52 | INFO | [cached since 2463s ago] {}
+2025-10-04 13:35:52 | INFO | ROLLBACK
+2025-10-04 13:35:52 | INFO | Fetched 14 forecast rows
+2025-10-04 13:35:52 | INFO | BEGIN (implicit)
+2025-10-04 13:35:52 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-04 13:35:52 | INFO | [cached since 2463s ago] {}
+2025-10-04 13:35:52 | INFO | ROLLBACK
+2025-10-04 13:35:52 | INFO | Fetched 2933 alerts
+2025-10-04 13:35:56 | INFO | Displayed daily trend for PM2.5
+2025-10-04 13:35:58 | INFO | Displayed weekly trend for PM2.5
+2025-10-04 13:35:59 | INFO | Displayed monthly trend for PM2.5
+2025-10-04 13:36:00 | INFO | Displayed overall AQI daily trend
+2025-10-04 13:36:54 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-04 13:36:55 | INFO | Displayed daily (last 30 days) AQI trends per pollutant
+2025-10-04 13:44:55 | INFO | BEGIN (implicit)
+2025-10-04 13:44:55 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-04 13:44:55 | INFO | [cached since 3006s ago] {}
+2025-10-04 13:44:55 | INFO | ROLLBACK
+2025-10-04 13:44:55 | INFO | Fetched 14 forecast rows
+2025-10-04 13:44:55 | INFO | BEGIN (implicit)
+2025-10-04 13:44:55 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-04 13:44:55 | INFO | [cached since 3006s ago] {}
+2025-10-04 13:44:56 | INFO | ROLLBACK
+2025-10-04 13:44:56 | INFO | Fetched 2933 alerts
+2025-10-04 13:45:00 | INFO | Displayed daily trend for PM2.5
+2025-10-04 13:45:01 | INFO | Displayed weekly trend for PM2.5
+2025-10-04 13:45:02 | INFO | Displayed monthly trend for PM2.5
+2025-10-04 13:45:02 | INFO | Displayed overall AQI daily trend
+2025-10-04 13:48:07 | INFO | BEGIN (implicit)
+2025-10-04 13:48:07 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-04 13:48:07 | INFO | [cached since 3202s ago] {}
+2025-10-04 13:48:07 | INFO | ROLLBACK
+2025-10-04 13:48:07 | INFO | Fetched 14 forecast rows
+2025-10-04 13:48:07 | INFO | BEGIN (implicit)
+2025-10-04 13:48:07 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-04 13:48:07 | INFO | [cached since 3202s ago] {}
+2025-10-04 13:48:07 | INFO | ROLLBACK
+2025-10-04 13:48:07 | INFO | Fetched 2933 alerts
+2025-10-04 13:48:12 | INFO | Displayed daily trend for PM2.5
+2025-10-04 13:48:12 | INFO | Displayed weekly trend for PM2.5
+2025-10-04 13:48:12 | INFO | Displayed monthly trend for PM2.5
+2025-10-04 13:48:13 | INFO | Displayed overall AQI daily trend
+2025-10-04 13:48:39 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-04 13:48:39 | INFO | Displayed daily (last 30 days) AQI trends per pollutant
+2025-10-04 13:49:00 | INFO | BEGIN (implicit)
+2025-10-04 13:49:00 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-04 13:49:00 | INFO | [cached since 3254s ago] {}
+2025-10-04 13:49:00 | INFO | ROLLBACK
+2025-10-04 13:49:00 | INFO | Fetched 14 forecast rows
+2025-10-04 13:49:00 | INFO | BEGIN (implicit)
+2025-10-04 13:49:00 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-04 13:49:00 | INFO | [cached since 3254s ago] {}
+2025-10-04 13:49:00 | INFO | ROLLBACK
+2025-10-04 13:49:00 | INFO | Fetched 2933 alerts
+2025-10-04 13:49:02 | INFO | Displayed daily trend for PM2.5
+2025-10-04 13:49:02 | INFO | Displayed weekly trend for PM2.5
+2025-10-04 13:49:02 | INFO | Displayed monthly trend for PM2.5
+2025-10-04 13:49:03 | INFO | Displayed overall AQI daily trend
+2025-10-04 13:50:29 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-04 13:50:30 | INFO | Displayed daily (last 30 days) AQI trends per pollutant
+2025-10-04 13:51:13 | INFO | BEGIN (implicit)
+2025-10-04 13:51:13 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-04 13:51:13 | INFO | [cached since 3388s ago] {}
+2025-10-04 13:51:13 | INFO | ROLLBACK
+2025-10-04 13:51:13 | INFO | Fetched 14 forecast rows
+2025-10-04 13:51:13 | INFO | BEGIN (implicit)
+2025-10-04 13:51:13 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-04 13:51:13 | INFO | [cached since 3388s ago] {}
+2025-10-04 13:51:13 | INFO | ROLLBACK
+2025-10-04 13:51:13 | INFO | Fetched 2933 alerts
+2025-10-04 13:51:15 | INFO | Displayed daily trend for PM2.5
+2025-10-04 13:51:16 | INFO | Displayed weekly trend for PM2.5
+2025-10-04 13:51:16 | INFO | Displayed monthly trend for PM2.5
+2025-10-04 13:51:18 | INFO | Displayed overall AQI daily trend
+2025-10-04 13:51:53 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-04 13:51:54 | INFO | Displayed daily (last 30 days) AQI trends per pollutant
+2025-10-04 13:56:32 | INFO | BEGIN (implicit)
+2025-10-04 13:56:32 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-04 13:56:32 | INFO | [cached since 3706s ago] {}
+2025-10-04 13:56:32 | INFO | ROLLBACK
+2025-10-04 13:56:32 | INFO | Fetched 14 forecast rows
+2025-10-04 13:56:32 | INFO | BEGIN (implicit)
+2025-10-04 13:56:32 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-04 13:56:32 | INFO | [cached since 3707s ago] {}
+2025-10-04 13:56:32 | INFO | ROLLBACK
+2025-10-04 13:56:32 | INFO | Fetched 2933 alerts
+2025-10-04 13:56:35 | INFO | Displayed daily trend for PM2.5
+2025-10-04 13:56:36 | INFO | Displayed weekly trend for PM2.5
+2025-10-04 13:56:37 | INFO | Displayed monthly trend for PM2.5
+2025-10-04 13:56:38 | INFO | Displayed overall AQI daily trend
+2025-10-04 13:57:40 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-04 13:57:40 | INFO | Displayed daily (last 30 days) AQI trends per pollutant
+2025-10-04 13:58:50 | INFO | BEGIN (implicit)
+2025-10-04 13:58:50 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-04 13:58:50 | INFO | [cached since 3845s ago] {}
+2025-10-04 13:58:50 | INFO | ROLLBACK
+2025-10-04 13:58:50 | INFO | Fetched 14 forecast rows
+2025-10-04 13:58:50 | INFO | BEGIN (implicit)
+2025-10-04 13:58:50 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-04 13:58:50 | INFO | [cached since 3845s ago] {}
+2025-10-04 13:58:50 | INFO | ROLLBACK
+2025-10-04 13:58:50 | INFO | Fetched 2933 alerts
+2025-10-04 13:58:51 | INFO | Displayed daily trend for PM2.5
+2025-10-04 13:58:52 | INFO | Displayed weekly trend for PM2.5
+2025-10-04 13:58:52 | INFO | Displayed monthly trend for PM2.5
+2025-10-04 13:58:52 | INFO | Displayed overall AQI daily trend
+2025-10-04 13:59:50 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-04 13:59:51 | INFO | Displayed daily (last 30 days) AQI trends per pollutant
+2025-10-04 14:00:14 | INFO | BEGIN (implicit)
+2025-10-04 14:00:14 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-04 14:00:14 | INFO | [cached since 3929s ago] {}
+2025-10-04 14:00:14 | INFO | ROLLBACK
+2025-10-04 14:00:14 | INFO | Fetched 14 forecast rows
+2025-10-04 14:00:14 | INFO | BEGIN (implicit)
+2025-10-04 14:00:14 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-04 14:00:14 | INFO | [cached since 3929s ago] {}
+2025-10-04 14:00:14 | INFO | ROLLBACK
+2025-10-04 14:00:14 | INFO | Fetched 2933 alerts
+2025-10-04 14:00:17 | INFO | Displayed daily trend for PM2.5
+2025-10-04 14:00:19 | INFO | Displayed weekly trend for PM2.5
+2025-10-04 14:00:19 | INFO | Displayed monthly trend for PM2.5
+2025-10-04 14:00:20 | INFO | Displayed overall AQI daily trend
+2025-10-04 14:00:56 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-04 14:00:57 | INFO | Displayed daily (last 30 days) AQI trends per pollutant
