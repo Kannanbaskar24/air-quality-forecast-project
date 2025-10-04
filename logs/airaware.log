@@ -12449,3 +12449,1365 @@ FROM alerts
 2025-10-04 14:00:20 | INFO | Displayed overall AQI daily trend
 2025-10-04 14:00:56 | INFO | Displayed latest day AQI gauges for all pollutants
 2025-10-04 14:00:57 | INFO | Displayed daily (last 30 days) AQI trends per pollutant
+2025-10-04 14:47:05 | INFO | BEGIN (implicit)
+2025-10-04 14:47:05 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-04 14:47:05 | INFO | [cached since 6740s ago] {}
+2025-10-04 14:47:06 | INFO | ROLLBACK
+2025-10-04 14:47:06 | INFO | Fetched 14 forecast rows
+2025-10-04 14:47:06 | INFO | BEGIN (implicit)
+2025-10-04 14:47:06 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-04 14:47:06 | INFO | [cached since 6741s ago] {}
+2025-10-04 14:47:06 | INFO | ROLLBACK
+2025-10-04 14:47:06 | INFO | Fetched 2933 alerts
+2025-10-04 14:47:08 | INFO | Displayed daily trend for PM2.5
+2025-10-04 14:47:09 | INFO | Displayed weekly trend for PM2.5
+2025-10-04 14:47:09 | INFO | Displayed monthly trend for PM2.5
+2025-10-04 14:47:10 | INFO | Displayed overall AQI daily trend
+2025-10-04 14:47:41 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-04 14:47:42 | INFO | Displayed daily (last 30 days) AQI trends per pollutant
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28705' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28708' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28709' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28722' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28723' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28724' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28725' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28726' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28727' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28728' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28729' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28730' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28731' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28732' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28733' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28734' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28735' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28736' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28739' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28740' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28741' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28742' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28743' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28744' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28745' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28746' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28747' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28748' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28749' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28750' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28751' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28752' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28753' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28756' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28757' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28758' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28759' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28762' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28765' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28768' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28769' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28770' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28773' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28774' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28775' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28776' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28777' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28778' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28779' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28780' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28781' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28782' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28783' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28784' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28785' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28786' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28787' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28788' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28789' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28790' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28791' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28792' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28793' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28794' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28801' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28802' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28805' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28806' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28807' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28808' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28809' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28810' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28811' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28812' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28813' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28814' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28815' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28816' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28817' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28818' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28819' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28820' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28821' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28824' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28825' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28826' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28827' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28830' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28831' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28832' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28833' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28834' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28837' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28840' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28841' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28844' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28845' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28846' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28847' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28848' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28849' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:47:56 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28850' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\parka\AppData\Local\Programs\Python\Python313\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-10-04 14:51:07 | INFO | BEGIN (implicit)
+2025-10-04 14:51:07 | INFO | SELECT predictions.id, predictions.date, predictions.pollutant, predictions.value 
+FROM predictions
+2025-10-04 14:51:07 | INFO | [cached since 6982s ago] {}
+2025-10-04 14:51:07 | INFO | ROLLBACK
+2025-10-04 14:51:07 | INFO | Fetched 14 forecast rows
+2025-10-04 14:51:07 | INFO | BEGIN (implicit)
+2025-10-04 14:51:07 | INFO | SELECT alerts.id, alerts.date, alerts.overall_aqi_category, alerts.message 
+FROM alerts
+2025-10-04 14:51:07 | INFO | [cached since 6982s ago] {}
+2025-10-04 14:51:07 | INFO | ROLLBACK
+2025-10-04 14:51:07 | INFO | Fetched 2933 alerts
+2025-10-04 14:51:11 | INFO | Displayed daily trend for PM2.5
+2025-10-04 14:51:13 | INFO | Displayed weekly trend for PM2.5
+2025-10-04 14:51:13 | INFO | Displayed monthly trend for PM2.5
+2025-10-04 14:51:14 | INFO | Displayed overall AQI daily trend
+2025-10-04 14:52:09 | INFO | Displayed latest day AQI gauges for all pollutants
+2025-10-04 14:52:10 | INFO | Displayed daily (last 30 days) AQI trends per pollutant
